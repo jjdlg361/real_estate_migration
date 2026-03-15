@@ -50,7 +50,6 @@ latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
 
 Main outputs:
 
-- Manuscript PDF: `paper_overleaf/main.pdf`
 - Main coefficient tables: `paper_overleaf/tables/`
 - Main figures: `paper_overleaf/figures/`
 
