@@ -1,13 +1,12 @@
 # Do Migration and Air Mobility Raise House Prices in Europe?
 
-Replication package for the paper analysis. This folder is ready to upload to GitHub and to attach as supplementary material.
+Replication package for the paper analysis.
 
 ## Package contents
 
 - `scripts/` — full data, estimation, diagnostics, and plotting pipeline
 - `data/` — raw and processed datasets used by the pipeline
 - `results/` — model outputs, diagnostics, projections, and CSV tables
-- `paper_overleaf/` — LaTeX manuscript, paper tables, figures, and compiled PDF
 - `docs/` — research design and supporting documentation
 - `requirements.txt` — Python dependencies
 
