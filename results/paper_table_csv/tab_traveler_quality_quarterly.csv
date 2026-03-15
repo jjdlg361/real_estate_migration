@@ -1,0 +1,85 @@
+row_order,row_kind,row_label,col_key,display,source_model,source_term,coef,std_err,p_value
+1.0,coef,Lagged air-passenger YoY growth,m1,0.036***,,L1_air_yoy,0.0360580571972678,0.0128222799825267,0.004972094337688
+1.0,coef,Lagged air-passenger YoY growth,m2,0.040***,,L1_air_yoy,0.0403165705289418,0.013530028200293,0.0029184014135668
+1.0,coef,Lagged air-passenger YoY growth,m3,0.034***,,L1_air_yoy,0.0336623437451465,0.0125090151145431,0.0071861198122296
+1.0,coef,Lagged air-passenger YoY growth,m4,0.035***,,L1_air_yoy,0.0353456151420056,0.0126341134351128,0.0052005361425822
+1.001,se,,m1,(0.013),,L1_air_yoy,0.0360580571972678,0.0128222799825267,0.004972094337688
+1.001,se,,m2,(0.014),,L1_air_yoy,0.0403165705289418,0.013530028200293,0.0029184014135668
+1.001,se,,m3,(0.013),,L1_air_yoy,0.0336623437451465,0.0125090151145431,0.0071861198122296
+1.001,se,,m4,(0.013),,L1_air_yoy,0.0353456151420056,0.0126341134351128,0.0052005361425822
+2.0,coef,"Lagged airfare inflation (HICP CP0733, YoY)",m1,,,L1_airfare_yoy_q,,,
+2.0,coef,"Lagged airfare inflation (HICP CP0733, YoY)",m2,-0.026,,L1_airfare_yoy_q,-0.026103650452274,0.0197304445905204,0.1859782670038792
+2.0,coef,"Lagged airfare inflation (HICP CP0733, YoY)",m3,-0.032*,,L1_airfare_yoy_q,-0.0323170118821635,0.0194965905615008,0.0975711634056966
+2.0,coef,"Lagged airfare inflation (HICP CP0733, YoY)",m4,,,L1_airfare_yoy_q,,,
+2.001,se,,m1,,,L1_airfare_yoy_q,,,
+2.001,se,,m2,(0.020),,L1_airfare_yoy_q,-0.026103650452274,0.0197304445905204,0.1859782670038792
+2.001,se,,m3,(0.019),,L1_airfare_yoy_q,-0.0323170118821635,0.0194965905615008,0.0975711634056966
+2.001,se,,m4,,,L1_airfare_yoy_q,,,
+3.0,coef,Lagged non-EU carrier passenger share,m1,,,L1_lic_neu_share_pas,,,
+3.0,coef,Lagged non-EU carrier passenger share,m2,,,L1_lic_neu_share_pas,,,
+3.0,coef,Lagged non-EU carrier passenger share,m3,0.129,,L1_lic_neu_share_pas,0.1287971019850139,2.955948546481178,0.965250075175972
+3.0,coef,Lagged non-EU carrier passenger share,m4,,,L1_lic_neu_share_pas,,,
+3.001,se,,m1,,,L1_lic_neu_share_pas,,,
+3.001,se,,m2,,,L1_lic_neu_share_pas,,,
+3.001,se,,m3,(2.956),,L1_lic_neu_share_pas,0.1287971019850139,2.955948546481178,0.965250075175972
+3.001,se,,m4,,,L1_lic_neu_share_pas,,,
+4.0,coef,Lagged passengers per commercial movement,m1,,,L1_pax_per_move_total,,,
+4.0,coef,Lagged passengers per commercial movement,m2,,,L1_pax_per_move_total,,,
+4.0,coef,Lagged passengers per commercial movement,m3,0.060***,,L1_pax_per_move_total,0.0604371506883852,0.0157720883548699,0.000131345928886
+4.0,coef,Lagged passengers per commercial movement,m4,0.059***,,L1_pax_per_move_total,0.0594668881706165,0.016315631277207,0.0002749201671403
+4.001,se,,m1,,,L1_pax_per_move_total,,,
+4.001,se,,m2,,,L1_pax_per_move_total,,,
+4.001,se,,m3,(0.016),,L1_pax_per_move_total,0.0604371506883852,0.0157720883548699,0.000131345928886
+4.001,se,,m4,(0.016),,L1_pax_per_move_total,0.0594668881706165,0.016315631277207,0.0002749201671403
+5.0,coef,Lagged air growth × demeaned airfare inflation,m1,,,L1_air_yoy:L1_airfare_yoy_q_c,,,
+5.0,coef,Lagged air growth × demeaned airfare inflation,m2,,,L1_air_yoy:L1_airfare_yoy_q_c,,,
+5.0,coef,Lagged air growth × demeaned airfare inflation,m3,,,L1_air_yoy:L1_airfare_yoy_q_c,,,
+5.0,coef,Lagged air growth × demeaned airfare inflation,m4,0.000182*,,L1_air_yoy:L1_airfare_yoy_q_c,0.0001817548974268,9.289487194704424e-05,0.0505470585722851
+5.001,se,,m1,,,L1_air_yoy:L1_airfare_yoy_q_c,,,
+5.001,se,,m2,,,L1_air_yoy:L1_airfare_yoy_q_c,,,
+5.001,se,,m3,,,L1_air_yoy:L1_airfare_yoy_q_c,,,
+5.001,se,,m4,(0.000093),,L1_air_yoy:L1_airfare_yoy_q_c,0.0001817548974268,9.289487194704424e-05,0.0505470585722851
+6.0,coef,Lagged air growth × demeaned non-EU carrier share,m1,,,L1_air_yoy:L1_lic_neu_share_pas_c,,,
+6.0,coef,Lagged air growth × demeaned non-EU carrier share,m2,,,L1_air_yoy:L1_lic_neu_share_pas_c,,,
+6.0,coef,Lagged air growth × demeaned non-EU carrier share,m3,,,L1_air_yoy:L1_lic_neu_share_pas_c,,,
+6.0,coef,Lagged air growth × demeaned non-EU carrier share,m4,0.020,,L1_air_yoy:L1_lic_neu_share_pas_c,0.0204394015542818,0.0226011116374776,0.3659241842793872
+6.001,se,,m1,,,L1_air_yoy:L1_lic_neu_share_pas_c,,,
+6.001,se,,m2,,,L1_air_yoy:L1_lic_neu_share_pas_c,,,
+6.001,se,,m3,,,L1_air_yoy:L1_lic_neu_share_pas_c,,,
+6.001,se,,m4,(0.023),,L1_air_yoy:L1_lic_neu_share_pas_c,0.0204394015542818,0.0226011116374776,0.3659241842793872
+7.0,coef,Lagged route opening rate,m1,-3.833,,L1_open_rate_norm_q,-3.8333334910768704,5.301637719611383,0.469740399848662
+7.0,coef,Lagged route opening rate,m2,-4.031,,L1_open_rate_norm_q,-4.031429405333998,5.373703903657381,0.4532117097829609
+7.0,coef,Lagged route opening rate,m3,-1.602,,L1_open_rate_norm_q,-1.6023859791942692,5.470979593176001,0.769639949095644
+7.0,coef,Lagged route opening rate,m4,-1.825,,L1_open_rate_norm_q,-1.8254725668932057,5.41096109807506,0.7358790753336222
+7.001,se,,m1,(5.302),,L1_open_rate_norm_q,-3.8333334910768704,5.301637719611383,0.469740399848662
+7.001,se,,m2,(5.374),,L1_open_rate_norm_q,-4.031429405333998,5.373703903657381,0.4532117097829609
+7.001,se,,m3,(5.471),,L1_open_rate_norm_q,-1.6023859791942692,5.470979593176001,0.769639949095644
+7.001,se,,m4,(5.411),,L1_open_rate_norm_q,-1.8254725668932057,5.41096109807506,0.7358790753336222
+8.0,coef,Lagged route closure rate,m1,-2.303,,L1_close_rate_norm_q,-2.3031662458217816,6.184519794363676,0.7096306376559975
+8.0,coef,Lagged route closure rate,m2,-2.161,,L1_close_rate_norm_q,-2.161175728231065,6.096229665499292,0.7229929902050132
+8.0,coef,Lagged route closure rate,m3,0.429,,L1_close_rate_norm_q,0.4286362888844238,6.430391734151512,0.9468611759462604
+8.0,coef,Lagged route closure rate,m4,0.605,,L1_close_rate_norm_q,0.6048251043001541,6.426779074001136,0.925031733728499
+8.001,se,,m1,(6.185),,L1_close_rate_norm_q,-2.3031662458217816,6.184519794363676,0.7096306376559975
+8.001,se,,m2,(6.096),,L1_close_rate_norm_q,-2.161175728231065,6.096229665499292,0.7229929902050132
+8.001,se,,m3,(6.430),,L1_close_rate_norm_q,0.4286362888844238,6.430391734151512,0.9468611759462604
+8.001,se,,m4,(6.427),,L1_close_rate_norm_q,0.6048251043001541,6.426779074001136,0.925031733728499
+90.0,midrule,,m1,,,,,,
+90.0,midrule,,m2,,,,,,
+90.0,midrule,,m3,,,,,,
+90.0,midrule,,m4,,,,,,
+91.0,stat,Country FE,m1,Yes,,,,,
+91.0,stat,Country FE,m2,Yes,,,,,
+91.0,stat,Country FE,m3,Yes,,,,,
+91.0,stat,Country FE,m4,Yes,,,,,
+92.0,stat,Quarter FE,m1,Yes,,,,,
+92.0,stat,Quarter FE,m2,Yes,,,,,
+92.0,stat,Quarter FE,m3,Yes,,,,,
+92.0,stat,Quarter FE,m4,Yes,,,,,
+93.0,stat,Two-way clustered SE,m1,Yes,,,,,
+93.0,stat,Two-way clustered SE,m2,Yes,,,,,
+93.0,stat,Two-way clustered SE,m3,Yes,,,,,
+93.0,stat,Two-way clustered SE,m4,Yes,,,,,
+94.0,stat,Observations,m1,"2,007",,,,,
+94.0,stat,Observations,m2,"2,169",,,,,
+94.0,stat,Observations,m3,"1,993",,,,,
+94.0,stat,Observations,m4,"1,993",,,,,

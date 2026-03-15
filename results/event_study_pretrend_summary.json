@@ -1,0 +1,26 @@
+[
+  {
+    "model": "regional_event_study_open_persistent",
+    "nobs": 2133.0,
+    "regions_total": 33,
+    "treated_regions": 17,
+    "event_threshold_rate": 0.39911504424778765,
+    "pretrend_joint_test": {
+      "stat": 5.89199505033382,
+      "df": 7,
+      "p_value": 0.5524157658213902
+    }
+  },
+  {
+    "model": "regional_event_study_close_persistent",
+    "nobs": 2133.0,
+    "regions_total": 33,
+    "treated_regions": 15,
+    "event_threshold_rate": 0.5346534653465347,
+    "pretrend_joint_test": {
+      "stat": 0.0,
+      "df": 7,
+      "p_value": 1.0
+    }
+  }
+]

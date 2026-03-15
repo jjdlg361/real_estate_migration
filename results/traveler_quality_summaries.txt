@@ -1,0 +1,200 @@
+# quarterly_tq_baseline_matched
+Formula: hpi_yoy ~ 1 + L1_air_yoy + L1_open_rate_norm_q + L1_close_rate_norm_q + EntityEffects + TimeEffects
+
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:                hpi_yoy   R-squared:                        0.0144
+Estimator:                   PanelOLS   R-squared (Between):              0.0292
+No. Observations:                2007   R-squared (Within):              -0.0326
+Date:                Fri, Mar 13 2026   R-squared (Overall):             -0.0255
+Time:                        12:14:53   Log-likelihood                   -6007.3
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      9.2371
+Entities:                          28   P-value                           0.0000
+Avg Obs:                       71.679   Distribution:                  F(3,1891)
+Min Obs:                       18.000                                           
+Max Obs:                       86.000   F-statistic (robust):             3.7724
+                                        P-value                           0.0103
+Time periods:                      86   Distribution:                  F(3,1891)
+Avg Obs:                       23.337                                           
+Min Obs:                       6.0000                                           
+Max Obs:                       27.000                                           
+                                                                                
+                                  Parameter Estimates                                   
+========================================================================================
+                      Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------------
+Intercept                4.4394     0.4207     10.554     0.0000      3.6144      5.2644
+L1_air_yoy               0.0361     0.0128     2.8121     0.0050      0.0109      0.0612
+L1_open_rate_norm_q     -3.8333     5.3016    -0.7230     0.4697     -14.231      6.5643
+L1_close_rate_norm_q    -2.3032     6.1845    -0.3724     0.7096     -14.432      9.8260
+========================================================================================
+
+F-test for Poolability: 19.034
+P-value: 0.0000
+Distribution: F(112,1891)
+
+Included effects: Entity, Time
+
+# quarterly_tq_plus_airfare
+Formula: hpi_yoy ~ 1 + L1_air_yoy + L1_airfare_yoy_q + L1_open_rate_norm_q + L1_close_rate_norm_q + EntityEffects + TimeEffects
+
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:                hpi_yoy   R-squared:                        0.0186
+Estimator:                   PanelOLS   R-squared (Between):              0.0512
+No. Observations:                2169   R-squared (Within):              -0.0484
+Date:                Fri, Mar 13 2026   R-squared (Overall):             -0.0395
+Time:                        12:14:53   Log-likelihood                   -6548.6
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      9.7063
+Entities:                          29   P-value                           0.0000
+Avg Obs:                       74.793   Distribution:                  F(4,2051)
+Min Obs:                       59.000                                           
+Max Obs:                       86.000   F-statistic (robust):             3.6437
+                                        P-value                           0.0058
+Time periods:                      86   Distribution:                  F(4,2051)
+Avg Obs:                       25.221                                           
+Min Obs:                       7.0000                                           
+Max Obs:                       29.000                                           
+                                                                                
+                                  Parameter Estimates                                   
+========================================================================================
+                      Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------------
+Intercept                4.3900     0.4268     10.287     0.0000      3.5530      5.2269
+L1_air_yoy               0.0403     0.0135     2.9798     0.0029      0.0138      0.0669
+L1_airfare_yoy_q        -0.0261     0.0197    -1.3230     0.1860     -0.0648      0.0126
+L1_open_rate_norm_q     -4.0314     5.3737    -0.7502     0.4532     -14.570      6.5071
+L1_close_rate_norm_q    -2.1612     6.0962    -0.3545     0.7230     -14.117      9.7943
+========================================================================================
+
+F-test for Poolability: 17.696
+P-value: 0.0000
+Distribution: F(113,2051)
+
+Included effects: Entity, Time
+
+# quarterly_tq_plus_airline_mix
+Formula: hpi_yoy ~ 1 + L1_air_yoy + L1_lic_neu_share_pas + L1_pax_per_move_total + L1_open_rate_norm_q + L1_close_rate_norm_q + EntityEffects + TimeEffects
+
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:                hpi_yoy   R-squared:                        0.0312
+Estimator:                   PanelOLS   R-squared (Between):             -0.4901
+No. Observations:                1993   R-squared (Within):              -0.0676
+Date:                Fri, Mar 13 2026   R-squared (Overall):             -0.1078
+Time:                        12:14:54   Log-likelihood                   -5951.7
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      12.091
+Entities:                          28   P-value                           0.0000
+Avg Obs:                       71.179   Distribution:                  F(5,1875)
+Min Obs:                       4.0000                                           
+Max Obs:                       86.000   F-statistic (robust):             5.4714
+                                        P-value                           0.0001
+Time periods:                      86   Distribution:                  F(5,1875)
+Avg Obs:                       23.174                                           
+Min Obs:                       6.0000                                           
+Max Obs:                       27.000                                           
+                                                                                
+                                   Parameter Estimates                                   
+=========================================================================================
+                       Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-----------------------------------------------------------------------------------------
+Intercept                -1.2917     1.5900    -0.8124     0.4167     -4.4101      1.8267
+L1_air_yoy                0.0339     0.0128     2.6496     0.0081      0.0088      0.0590
+L1_lic_neu_share_pas      0.2864     2.9628     0.0967     0.9230     -5.5243      6.0971
+L1_pax_per_move_total     0.0600     0.0157     3.8164     0.0001      0.0292      0.0908
+L1_open_rate_norm_q      -1.4608     5.5748    -0.2620     0.7933     -12.394      9.4726
+L1_close_rate_norm_q      0.0826     6.5231     0.0127     0.9899     -12.711      12.876
+=========================================================================================
+
+F-test for Poolability: 19.339
+P-value: 0.0000
+Distribution: F(112,1875)
+
+Included effects: Entity, Time
+
+# quarterly_tq_full
+Formula: hpi_yoy ~ 1 + L1_air_yoy + L1_airfare_yoy_q + L1_lic_neu_share_pas + L1_pax_per_move_total + L1_open_rate_norm_q + L1_close_rate_norm_q + EntityEffects + TimeEffects
+
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:                hpi_yoy   R-squared:                        0.0353
+Estimator:                   PanelOLS   R-squared (Between):             -0.5472
+No. Observations:                1993   R-squared (Within):              -0.0469
+Date:                Fri, Mar 13 2026   R-squared (Overall):             -0.0907
+Time:                        12:14:54   Log-likelihood                   -5947.5
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      11.413
+Entities:                          28   P-value                           0.0000
+Avg Obs:                       71.179   Distribution:                  F(6,1874)
+Min Obs:                       4.0000                                           
+Max Obs:                       86.000   F-statistic (robust):             5.6593
+                                        P-value                           0.0000
+Time periods:                      86   Distribution:                  F(6,1874)
+Avg Obs:                       23.174                                           
+Min Obs:                       6.0000                                           
+Max Obs:                       27.000                                           
+                                                                                
+                                   Parameter Estimates                                   
+=========================================================================================
+                       Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-----------------------------------------------------------------------------------------
+Intercept                -1.2493     1.6047    -0.7785     0.4364     -4.3964      1.8978
+L1_air_yoy                0.0337     0.0125     2.6910     0.0072      0.0091      0.0582
+L1_airfare_yoy_q         -0.0323     0.0195    -1.6576     0.0976     -0.0706      0.0059
+L1_lic_neu_share_pas      0.1288     2.9559     0.0436     0.9653     -5.6685      5.9261
+L1_pax_per_move_total     0.0604     0.0158     3.8319     0.0001      0.0295      0.0914
+L1_open_rate_norm_q      -1.6024     5.4710    -0.2929     0.7696     -12.332      9.1275
+L1_close_rate_norm_q      0.4286     6.4304     0.0667     0.9469     -12.183      13.040
+=========================================================================================
+
+F-test for Poolability: 19.027
+P-value: 0.0000
+Distribution: F(112,1874)
+
+Included effects: Entity, Time
+
+# quarterly_tq_full_interact
+Formula: hpi_yoy ~ 1 + L1_air_yoy + L1_airfare_yoy_q_c + L1_lic_neu_share_pas_c + L1_air_yoy:L1_lic_neu_share_pas_c + L1_air_yoy:L1_airfare_yoy_q_c + L1_pax_per_move_total + L1_open_rate_norm_q + L1_close_rate_norm_q + EntityEffects + TimeEffects
+
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:                hpi_yoy   R-squared:                        0.0364
+Estimator:                   PanelOLS   R-squared (Between):             -0.5062
+No. Observations:                1993   R-squared (Within):              -0.0372
+Date:                Fri, Mar 13 2026   R-squared (Overall):             -0.0801
+Time:                        12:14:54   Log-likelihood                   -5946.4
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      8.8280
+Entities:                          28   P-value                           0.0000
+Avg Obs:                       71.179   Distribution:                  F(8,1872)
+Min Obs:                       4.0000                                           
+Max Obs:                       86.000   F-statistic (robust):             4.6949
+                                        P-value                           0.0000
+Time periods:                      86   Distribution:                  F(8,1872)
+Avg Obs:                       23.174                                           
+Min Obs:                       6.0000                                           
+Max Obs:                       27.000                                           
+                                                                                
+                                         Parameter Estimates                                         
+=====================================================================================================
+                                   Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-----------------------------------------------------------------------------------------------------
+Intercept                            -1.2876     1.6442    -0.7831     0.4337     -4.5121      1.9370
+L1_air_yoy                            0.0353     0.0126     2.7976     0.0052      0.0106      0.0601
+L1_airfare_yoy_q_c                   -0.0351     0.0191    -1.8380     0.0662     -0.0725      0.0024
+L1_lic_neu_share_pas_c               -0.0214     2.9480    -0.0072     0.9942     -5.8031      5.7604
+L1_pax_per_move_total                 0.0595     0.0163     3.6448     0.0003      0.0275      0.0915
+L1_open_rate_norm_q                  -1.8255     5.4110    -0.3374     0.7359     -12.438      8.7867
+L1_close_rate_norm_q                  0.6048     6.4268     0.0941     0.9250     -12.000      13.209
+L1_air_yoy:L1_lic_neu_share_pas_c     0.0204     0.0226     0.9044     0.3659     -0.0239      0.0648
+L1_air_yoy:L1_airfare_yoy_q_c         0.0002  9.289e-05     1.9566     0.0505  -4.335e-07      0.0004
+=====================================================================================================
+
+F-test for Poolability: 18.253
+P-value: 0.0000
+Distribution: F(112,1872)
+
+Included effects: Entity, Time

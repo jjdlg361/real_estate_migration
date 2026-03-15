@@ -1,0 +1,11 @@
+{
+  "country_iv_fe": {
+    "n_terms": 90
+  },
+  "quarterly_route_shock_fe": {
+    "n_terms": 7
+  },
+  "nuts2_twfe": {
+    "n_terms": 13
+  }
+}

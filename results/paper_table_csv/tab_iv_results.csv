@@ -1,0 +1,27 @@
+row_order,row_kind,row_label,col_key,display,source_model,source_term,coef,std_err,p_value
+1.0,coef,Lagged net migration rate (endogenous),m1,-0.213,,L1_net_migration_rate,-0.2125674922427833,0.4185718860569338,0.6115656464488521
+1.0,coef,Lagged net migration rate (endogenous),m2,0.013,,L1_net_migration_rate,0.0130809978531658,0.4331222918297631,0.9759062510585306
+1.001,se,,m1,(0.419),,L1_net_migration_rate,-0.2125674922427833,0.4185718860569338,0.6115656464488521
+1.001,se,,m2,(0.433),,L1_net_migration_rate,0.0130809978531658,0.4331222918297631,0.9759062510585306
+2.0,coef,Lagged air-passenger growth,m1,0.039,,L1_air_growth,0.0386044324402368,0.0395275261085114,0.3287440343596275
+2.0,coef,Lagged air-passenger growth,m2,0.039,,L1_air_growth,0.0392196781173255,0.0420183971708237,0.3506170892598472
+2.001,se,,m1,(0.040),,L1_air_growth,0.0386044324402368,0.0395275261085114,0.3287440343596275
+2.001,se,,m2,(0.042),,L1_air_growth,0.0392196781173255,0.0420183971708237,0.3506170892598472
+3.0,coef,Lagged GDP per-capita growth,m1,0.271,,L1_gdp_pc_growth,0.2710745777104719,0.2385887551828532,0.2558903485476604
+3.0,coef,Lagged GDP per-capita growth,m2,0.340,,L1_gdp_pc_growth,0.340402027546844,0.2468681318250046,0.1679311335626852
+3.001,se,,m1,(0.239),,L1_gdp_pc_growth,0.2710745777104719,0.2385887551828532,0.2558903485476604
+3.001,se,,m2,(0.247),,L1_gdp_pc_growth,0.340402027546844,0.2468681318250046,0.1679311335626852
+4.0,coef,Lagged unemployment rate,m1,-0.832**,,L1_unemployment_rate,-0.8322672962343347,0.394927394930547,0.0350835128242148
+4.0,coef,Lagged unemployment rate,m2,-0.661,,L1_unemployment_rate,-0.6609435955408998,0.425428557043978,0.1202810995990717
+4.001,se,,m1,(0.395),,L1_unemployment_rate,-0.8322672962343347,0.394927394930547,0.0350835128242148
+4.001,se,,m2,(0.425),,L1_unemployment_rate,-0.6609435955408998,0.425428557043978,0.1202810995990717
+90.0,midrule,,m1,,,,,,
+90.0,midrule,,m2,,,,,,
+91.0,stat,Country FE,m1,Yes,,,,,
+91.0,stat,Country FE,m2,Yes,,,,,
+92.0,stat,Year FE,m1,Yes,,,,,
+92.0,stat,Year FE,m2,Yes,,,,,
+93.0,stat,Clustered SE (country),m1,Yes,,,,,
+93.0,stat,Clustered SE (country),m2,Yes,,,,,
+94.0,stat,Observations,m1,249,,,,,
+94.0,stat,Observations,m2,245,,,,,

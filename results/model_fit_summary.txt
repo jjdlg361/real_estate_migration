@@ -1,0 +1,47 @@
+# annual_headline_composition
+Common sample rows=232, entities=24, periods=16
+Full model: R2_inclusive=0.7754, R2_within=0.0694, RMSE=2.5926, MAE=1.9821, Corr(actual,fitted)=0.8806
+Top leave-one-block-out losses (delta positive means block improves full model):
+  - macros: +0.4172 RMSE, +0.2997 MAE, +0.6138 within-R2, +0.0781 incl-R2
+  - migration: +0.0326 RMSE, +0.0308 MAE, +0.0006 within-R2, +0.0057 incl-R2
+  - air: +0.0037 RMSE, +0.0076 MAE, +0.1910 within-R2, +0.0006 incl-R2
+  - origin_income_comp: +0.0012 RMSE, +0.0004 MAE, +0.0010 within-R2, +0.0002 incl-R2
+Shapley contributions (within-R2):
+  - macros: within=0.2556, inclusive=0.0914
+  - origin_income_comp: within=0.0053, inclusive=0.0009
+  - migration: within=-0.0162, inclusive=0.0149
+  - air: within=-0.1753, inclusive=0.0029
+
+# annual_extended_composition_groups
+Common sample rows=207, entities=20, periods=15
+Full model: R2_inclusive=0.7795, R2_within=0.1390, RMSE=2.5870, MAE=1.9801, Corr(actual,fitted)=0.8829
+Top leave-one-block-out losses (delta positive means block improves full model):
+  - macros: +0.4320 RMSE, +0.3210 MAE, +0.6988 within-R2, +0.0798 incl-R2
+  - migration: +0.0364 RMSE, +0.0309 MAE, +-0.0110 within-R2, +0.0063 incl-R2
+  - origin_region_shares: +0.0361 RMSE, +0.0202 MAE, +0.0440 within-R2, +0.0062 incl-R2
+  - origin_income_comp: +0.0078 RMSE, +0.0004 MAE, +0.0021 within-R2, +0.0013 incl-R2
+  - air: +0.0047 RMSE, +0.0069 MAE, +0.2133 within-R2, +0.0008 incl-R2
+Shapley contributions (within-R2):
+  - macros: within=0.3060, inclusive=0.0952
+  - origin_region_shares: within=0.0466, inclusive=0.0106
+  - origin_income_comp: within=-0.0020, inclusive=0.0010
+  - migration: within=-0.0131, inclusive=0.0146
+  - air: within=-0.1986, inclusive=0.0037
+
+# quarterly_traveler_quality_full_interact
+Common sample rows=1993, entities=28, periods=86
+Full model: R2_inclusive=0.5526, R2_within=-0.0372, RMSE=4.7812, MAE=3.6353, Corr(actual,fitted)=0.7433
+Top leave-one-block-out losses (delta positive means block improves full model):
+  - operating_intensity: +0.0394 RMSE, +0.0405 MAE, +-0.0237 within-R2, +0.0074 incl-R2
+  - air_growth: +0.0310 RMSE, +0.0196 MAE, +-0.0443 within-R2, +0.0058 incl-R2
+  - airfare_proxy: +0.0113 RMSE, +0.0050 MAE, +0.0246 within-R2, +0.0021 incl-R2
+  - interactions: +0.0027 RMSE, +-0.0007 MAE, +0.0097 within-R2, +0.0005 incl-R2
+  - route_shocks: +0.0002 RMSE, +0.0001 MAE, +-0.0001 within-R2, +0.0000 incl-R2
+  - airline_mix_level: +0.0000 RMSE, +0.0000 MAE, +0.0002 within-R2, +0.0000 incl-R2
+Shapley contributions (within-R2):
+  - airfare_proxy: within=0.0149, inclusive=0.0020
+  - interactions: within=0.0034, inclusive=0.0004
+  - airline_mix_level: within=-0.0029, inclusive=0.0000
+  - route_shocks: within=-0.0045, inclusive=0.0002
+  - operating_intensity: within=-0.0135, inclusive=0.0082
+  - air_growth: within=-0.0346, inclusive=0.0061

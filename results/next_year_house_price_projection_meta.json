@@ -1,0 +1,28 @@
+{
+  "model": "annual_fe_dehaas_core_interactions",
+  "target_year": 2027,
+  "source_year": 2025,
+  "n_countries_projected": 27,
+  "latest_input_data_year_used_max": 2025.0,
+  "latest_input_data_year_used_min": 2025.0,
+  "strict_no_wb_fallback": true,
+  "strict_no_wb_fallback_predictors": [
+    "net_migration_rate"
+  ],
+  "max_composition_staleness_years": 2,
+  "stale_composition_replacements": {
+    "origin_income_hump": 7,
+    "network_stock_per_1000": 7,
+    "network_hhi": 7,
+    "asylum_share_inflows": 1,
+    "naturalization_rate_per_1000": 2
+  },
+  "max_predictor_staleness_years": 18.0,
+  "avg_predictor_staleness_years": 1.1759259259259258,
+  "predicted_growth_min_pp": -1.8717229982571597,
+  "predicted_growth_max_pp": 11.358966965397233,
+  "outputs": {
+    "csv": "/Users/josejuan/Desktop/Real Estate Migration/results/next_year_house_price_projection_country.csv",
+    "figure": "/Users/josejuan/Desktop/Real Estate Migration/paper_overleaf/figures/fig_country_next_year_projection_map.pdf"
+  }
+}

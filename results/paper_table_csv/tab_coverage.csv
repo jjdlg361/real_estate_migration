@@ -1,0 +1,11 @@
+dataset_block,rows,units,period,notes,row_order
+National annual panel,2145,29,1949--2025,Eurostat HPI + migration + air + macro controls,1
+National quarterly panel,3828,29,1993Q1--2025Q4,Eurostat HPI + air passengers,2
+Annual baseline estimation sample,314,,2014--2024,Non-missing HPI growth and lagged migration,3
+Quarterly baseline estimation sample,2108,,2006Q1--2025Q3,Non-missing HPI YoY and lagged air YoY,4
+OD migration IV panel,567,26,1998--2024,Destination-origin immigration exposures,5
+Monthly route-month panel,848376,29,2004--2025,Airport-partner route activity,6
+Country-quarter route shocks,2469,29,2004Q1--2025Q4,Aggregated route openings/closures,7
+Airport-to-NUTS2 crosswalk,425,,,Mapped 411/425 airports (96.7\%),8
+NUTS2 annual panel (corrected RHPI),936,59,2002--2024,6 countries after RHPI vintage filter,9
+NUTS2 quarterly route-shock panel (corrected RHPI),2238,33,2002Q1--2025Q3,5 countries after RHPI vintage filter,10

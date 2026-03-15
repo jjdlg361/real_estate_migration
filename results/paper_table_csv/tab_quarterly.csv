@@ -1,0 +1,61 @@
+row_order,row_kind,row_label,col_key,display,source_model,source_term,coef,std_err,p_value
+1.0,coef,Lagged air-passenger YoY,m1,0.029**,,L1_air_yoy,0.0288647363171222,0.0115506054488856,0.0125319122514435
+1.0,coef,Lagged air-passenger YoY,m2,0.020**,,L1_air_yoy,0.020054169700839,0.0084318290844257,0.0174789473576981
+1.0,coef,Lagged air-passenger YoY,m3,0.041***,,L1_air_yoy,0.0408473672211609,0.013248259490345,0.0020749453825479
+1.0,coef,Lagged air-passenger YoY,m4,0.041***,,L1_air_yoy,0.0412527926775838,0.0133525033582893,0.0020317065993045
+1.001,se,,m1,(0.012),,L1_air_yoy,0.0288647363171222,0.0115506054488856,0.0125319122514435
+1.001,se,,m2,(0.008),,L1_air_yoy,0.020054169700839,0.0084318290844257,0.0174789473576981
+1.001,se,,m3,(0.013),,L1_air_yoy,0.0408473672211609,0.013248259490345,0.0020749453825479
+1.001,se,,m4,(0.013),,L1_air_yoy,0.0412527926775838,0.0133525033582893,0.0020317065993045
+2.0,coef,2nd lag air-passenger YoY,m1,,,L2_air_yoy,,,
+2.0,coef,2nd lag air-passenger YoY,m2,0.018*,,L2_air_yoy,0.0175137859453095,0.00902412893378,0.0524217430428337
+2.0,coef,2nd lag air-passenger YoY,m3,,,L2_air_yoy,,,
+2.0,coef,2nd lag air-passenger YoY,m4,,,L2_air_yoy,,,
+2.001,se,,m1,,,L2_air_yoy,,,
+2.001,se,,m2,(0.009),,L2_air_yoy,0.0175137859453095,0.00902412893378,0.0524217430428337
+2.001,se,,m3,,,L2_air_yoy,,,
+2.001,se,,m4,,,L2_air_yoy,,,
+3.0,coef,Lagged net route openings (count),m1,,,L1_net_openings_q,,,
+3.0,coef,Lagged net route openings (count),m2,,,L1_net_openings_q,,,
+3.0,coef,Lagged net route openings (count),m3,-0.000094,,L1_net_openings_q,-9.420142953152328e-05,0.0158773051466592,0.9952666858589828
+3.0,coef,Lagged net route openings (count),m4,,,L1_net_openings_q,,,
+3.001,se,,m1,,,L1_net_openings_q,,,
+3.001,se,,m2,,,L1_net_openings_q,,,
+3.001,se,,m3,(0.016),,L1_net_openings_q,-9.420142953152328e-05,0.0158773051466592,0.9952666858589828
+3.001,se,,m4,,,L1_net_openings_q,,,
+4.0,coef,Lagged persistent opening intensity,m1,,,L1_open_rate_norm_q,,,
+4.0,coef,Lagged persistent opening intensity,m2,,,L1_open_rate_norm_q,,,
+4.0,coef,Lagged persistent opening intensity,m3,,,L1_open_rate_norm_q,,,
+4.0,coef,Lagged persistent opening intensity,m4,-4.293,,L1_open_rate_norm_q,-4.292808886952281,5.6145282946829616,0.4446039910679418
+4.001,se,,m1,,,L1_open_rate_norm_q,,,
+4.001,se,,m2,,,L1_open_rate_norm_q,,,
+4.001,se,,m3,,,L1_open_rate_norm_q,,,
+4.001,se,,m4,(5.615),,L1_open_rate_norm_q,-4.292808886952281,5.6145282946829616,0.4446039910679418
+5.0,coef,Lagged persistent closure intensity,m1,,,L1_close_rate_norm_q,,,
+5.0,coef,Lagged persistent closure intensity,m2,,,L1_close_rate_norm_q,,,
+5.0,coef,Lagged persistent closure intensity,m3,,,L1_close_rate_norm_q,,,
+5.0,coef,Lagged persistent closure intensity,m4,0.505,,L1_close_rate_norm_q,0.504760817574752,1.2907889108602335,0.6958021268676826
+5.001,se,,m1,,,L1_close_rate_norm_q,,,
+5.001,se,,m2,,,L1_close_rate_norm_q,,,
+5.001,se,,m3,,,L1_close_rate_norm_q,,,
+5.001,se,,m4,(1.291),,L1_close_rate_norm_q,0.504760817574752,1.2907889108602335,0.6958021268676826
+90.0,midrule,,m1,,,,,,
+90.0,midrule,,m2,,,,,,
+90.0,midrule,,m3,,,,,,
+90.0,midrule,,m4,,,,,,
+91.0,stat,Country FE,m1,Yes,,,,,
+91.0,stat,Country FE,m2,Yes,,,,,
+91.0,stat,Country FE,m3,Yes,,,,,
+91.0,stat,Country FE,m4,Yes,,,,,
+92.0,stat,Quarter FE,m1,Yes,,,,,
+92.0,stat,Quarter FE,m2,Yes,,,,,
+92.0,stat,Quarter FE,m3,Yes,,,,,
+92.0,stat,Quarter FE,m4,Yes,,,,,
+93.0,stat,Two-way clustered SE,m1,No,,,,,
+93.0,stat,Two-way clustered SE,m2,No,,,,,
+93.0,stat,Two-way clustered SE,m3,Yes,,,,,
+93.0,stat,Two-way clustered SE,m4,Yes,,,,,
+94.0,stat,Observations,m1,"2,205",,,,,
+94.0,stat,Observations,m2,"2,195",,,,,
+94.0,stat,Observations,m3,"2,169",,,,,
+94.0,stat,Observations,m4,"2,169",,,,,

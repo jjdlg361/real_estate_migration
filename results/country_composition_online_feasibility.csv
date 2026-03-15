@@ -1,0 +1,48 @@
+geo,country_name,od_prevres_rows,od_prevres_year_min,od_prevres_year_max,n_baseline_rows,n_comp_rows,n_groups_rows,data_path_tag,ctz_country_rows,ctz_country_n_years,ctz_year_min,ctz_year_max
+AU,Australia,0,,,18,0,0,needs_non_eurostat_source,0,0,,
+BR,Brazil,0,,,23,0,0,needs_non_eurostat_source,0,0,,
+CA,Canada,0,,,27,0,0,needs_non_eurostat_source,0,0,,
+CH,Switzerland,0,,,16,0,0,needs_non_eurostat_source,0,0,,
+CL,Chile,0,,,17,0,0,needs_non_eurostat_source,0,0,,
+CN,China,0,,,19,0,0,needs_non_eurostat_source,0,0,,
+CO,Colombia,0,,,33,0,0,needs_non_eurostat_source,0,0,,
+CY,Cyprus,0,,,12,0,0,needs_non_eurostat_source,0,0,,
+EL,Greece,0,,,0,0,0,needs_non_eurostat_source,0,0,,
+IL,Israel,0,,,10,0,0,needs_non_eurostat_source,0,0,,
+IN,India,0,,,14,0,0,needs_non_eurostat_source,0,0,,
+JP,Japan,0,,,10,0,0,needs_non_eurostat_source,0,0,,
+KR,"Korea, Rep.",0,,,21,0,0,needs_non_eurostat_source,0,0,,
+MT,Malta,0,,,12,0,0,needs_non_eurostat_source,0,0,,
+MX,Mexico,0,,,19,0,0,needs_non_eurostat_source,0,0,,
+NZ,New Zealand,0,,,20,0,0,needs_non_eurostat_source,0,0,,
+SA,Saudi Arabia,0,,,0,0,0,needs_non_eurostat_source,0,0,,
+TR,Turkiye,0,,,0,0,0,needs_non_eurostat_source,0,0,,
+US,United States,0,,,31,0,0,needs_non_eurostat_source,0,0,,
+ZA,South Africa,0,,,24,0,0,needs_non_eurostat_source,0,0,,
+IE,Ireland,1100,2006.0,2010.0,12,0,0,od_exists_but_controls_gap,1110,5,2006,2010
+LU,Luxembourg,795,2003.0,2007.0,12,0,0,od_exists_but_controls_gap,5640,27,1998,2024
+PT,Portugal,130,2008.0,2008.0,12,0,0,od_exists_but_controls_gap,130,1,2008,2008
+CZ,Czechia,2217,2002.0,2024.0,12,4,4,od_exists_but_thin_composition,4662,23,2002,2024
+EE,Estonia,4647,2004.0,2024.0,5,5,5,od_exists_but_thin_composition,4053,19,2004,2024
+HU,Hungary,52,2021.0,2022.0,12,2,0,od_exists_but_thin_composition,5462,27,1998,2024
+LV,Latvia,291,1998.0,2019.0,12,1,0,od_exists_but_thin_composition,2078,10,1998,2024
+PL,Poland,1464,2001.0,2019.0,20,4,3,od_exists_but_thin_composition,288,2,2006,2007
+AT,Austria,5280,1998.0,2024.0,12,11,11,ready_for_composition_models,4785,25,1998,2024
+BE,Belgium,2873,2010.0,2024.0,12,10,10,ready_for_composition_models,2745,16,1999,2024
+BG,Bulgaria,3097,2007.0,2024.0,12,12,12,ready_for_composition_models,2980,14,2007,2024
+DE,Germany,4412,1998.0,2024.0,12,11,11,ready_for_composition_models,4159,21,1998,2024
+DK,Denmark,5258,1998.0,2021.0,12,9,9,ready_for_composition_models,4985,24,1998,2021
+ES,Spain,3179,1998.0,2024.0,17,17,17,ready_for_composition_models,2981,26,1998,2024
+FI,Finland,5993,1998.0,2024.0,12,12,12,ready_for_composition_models,5640,27,1998,2024
+FR,France,319,2013.0,2024.0,12,12,0,ready_for_composition_models,319,12,2013,2024
+HR,Croatia,5160,1999.0,2024.0,12,12,12,ready_for_composition_models,5158,25,1998,2024
+IS,Iceland,4625,1998.0,2024.0,12,12,12,ready_for_composition_models,4619,22,1998,2024
+IT,Italy,3755,2008.0,2024.0,12,12,12,ready_for_composition_models,3672,17,2008,2024
+LT,Lithuania,5881,1998.0,2024.0,12,12,12,ready_for_composition_models,5337,27,1998,2024
+NL,Netherlands,5923,1998.0,2024.0,12,12,12,ready_for_composition_models,5508,27,1998,2024
+NO,Norway,5540,1998.0,2024.0,12,12,12,ready_for_composition_models,5267,26,1998,2024
+RO,Romania,2212,2013.0,2024.0,12,11,10,ready_for_composition_models,3254,15,2008,2024
+SE,Sweden,5754,1998.0,2024.0,12,12,12,ready_for_composition_models,5432,27,1998,2024
+SI,Slovenia,5995,1998.0,2024.0,12,12,12,ready_for_composition_models,5633,27,1998,2024
+SK,Slovak Republic,5768,1998.0,2024.0,12,12,12,ready_for_composition_models,3674,17,2008,2024
+UK,United Kingdom,1948,1998.0,2025.0,8,8,0,ready_for_composition_models,1333,20,1998,2019

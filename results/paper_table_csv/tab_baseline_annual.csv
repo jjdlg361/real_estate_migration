@@ -1,0 +1,64 @@
+row_order,row_kind,row_label,col_key,display,source_model,source_term,coef,std_err,p_value
+1.0,coef,Lagged net migration rate,m1,-0.027,,L1_net_migration_rate,-0.0270115733290859,0.1264370570521875,0.8308921949193402
+1.0,coef,Lagged net migration rate,m2,-0.030,,L1_net_migration_rate,-0.0299588459896827,0.1277216115371009,0.8146178362825207
+1.0,coef,Lagged net migration rate,m3,0.095**,,L1_net_migration_rate,0.0951482860916783,0.0472896596341827,0.0446924575880685
+1.001,se,,m1,(0.126),,L1_net_migration_rate,-0.0270115733290859,0.1264370570521875,0.8308921949193402
+1.001,se,,m2,(0.128),,L1_net_migration_rate,-0.0299588459896827,0.1277216115371009,0.8146178362825207
+1.001,se,,m3,(0.047),,L1_net_migration_rate,0.0951482860916783,0.0472896596341827,0.0446924575880685
+2.0,coef,Lagged air-passenger growth,m1,,,L1_air_growth,,,
+2.0,coef,Lagged air-passenger growth,m2,0.038,,L1_air_growth,0.038216546215124,0.023383315728359,0.1026466392247857
+2.0,coef,Lagged air-passenger growth,m3,0.022,,L1_air_growth,0.0216581989863916,0.0282660819153791,0.44386314250737
+2.001,se,,m1,,,L1_air_growth,,,
+2.001,se,,m2,(0.023),,L1_air_growth,0.038216546215124,0.023383315728359,0.1026466392247857
+2.001,se,,m3,(0.028),,L1_air_growth,0.0216581989863916,0.0282660819153791,0.44386314250737
+3.0,coef,Lagged GDP per-capita growth,m1,,,L1_gdp_pc_growth,,,
+3.0,coef,Lagged GDP per-capita growth,m2,,,L1_gdp_pc_growth,,,
+3.0,coef,Lagged GDP per-capita growth,m3,0.673***,,L1_gdp_pc_growth,0.6734914604772313,0.2201372866994116,0.0023232296211608
+3.001,se,,m1,,,L1_gdp_pc_growth,,,
+3.001,se,,m2,,,L1_gdp_pc_growth,,,
+3.001,se,,m3,(0.220),,L1_gdp_pc_growth,0.6734914604772313,0.2201372866994116,0.0023232296211608
+4.0,coef,Lagged unemployment rate,m1,,,L1_unemployment_rate,,,
+4.0,coef,Lagged unemployment rate,m2,,,L1_unemployment_rate,,,
+4.0,coef,Lagged unemployment rate,m3,-0.435*,,L1_unemployment_rate,-0.4349496523974423,0.2594526293490033,0.0942125525225661
+4.001,se,,m1,,,L1_unemployment_rate,,,
+4.001,se,,m2,,,L1_unemployment_rate,,,
+4.001,se,,m3,(0.259),,L1_unemployment_rate,-0.4349496523974423,0.2594526293490033,0.0942125525225661
+5.0,coef,Lagged inflation,m1,,,L1_inflation_hicp,,,
+5.0,coef,Lagged inflation,m2,,,L1_inflation_hicp,,,
+5.0,coef,Lagged inflation,m3,0.261,,L1_inflation_hicp,0.2608805065359463,0.1866593820239669,0.162775060610157
+5.001,se,,m1,,,L1_inflation_hicp,,,
+5.001,se,,m2,,,L1_inflation_hicp,,,
+5.001,se,,m3,(0.187),,L1_inflation_hicp,0.2608805065359463,0.1866593820239669,0.162775060610157
+6.0,coef,Lagged long-term rate,m1,,,L1_long_rate,,,
+6.0,coef,Lagged long-term rate,m2,,,L1_long_rate,,,
+6.0,coef,Lagged long-term rate,m3,0.097,,L1_long_rate,0.0972650255226077,0.1039905747535859,0.3500216322199163
+6.001,se,,m1,,,L1_long_rate,,,
+6.001,se,,m2,,,L1_long_rate,,,
+6.001,se,,m3,(0.104),,L1_long_rate,0.0972650255226077,0.1039905747535859,0.3500216322199163
+7.0,coef,Lagged population growth,m1,,,L1_pop_growth,,,
+7.0,coef,Lagged population growth,m2,,,L1_pop_growth,,,
+7.0,coef,Lagged population growth,m3,0.294,,L1_pop_growth,0.2944574429035941,0.3972751013747368,0.4588855883762486
+7.001,se,,m1,,,L1_pop_growth,,,
+7.001,se,,m2,,,L1_pop_growth,,,
+7.001,se,,m3,(0.397),,L1_pop_growth,0.2944574429035941,0.3972751013747368,0.4588855883762486
+90.0,midrule,,m1,,,,,,
+90.0,midrule,,m2,,,,,,
+90.0,midrule,,m3,,,,,,
+91.0,stat,Country FE,m1,Yes,,,,,
+91.0,stat,Country FE,m2,Yes,,,,,
+91.0,stat,Country FE,m3,Yes,,,,,
+92.0,stat,Year FE,m1,Yes,,,,,
+92.0,stat,Year FE,m2,Yes,,,,,
+92.0,stat,Year FE,m3,Yes,,,,,
+93.0,stat,Clustered SE (country),m1,Yes,,,,,
+93.0,stat,Clustered SE (country),m2,Yes,,,,,
+93.0,stat,Clustered SE (country),m3,Yes,,,,,
+94.0,stat,Macro controls included,m1,No,,,,,
+94.0,stat,Macro controls included,m2,No,,,,,
+94.0,stat,Macro controls included,m3,Yes,,,,,
+95.0,stat,Observations,m1,789,,,,,
+95.0,stat,Observations,m2,766,,,,,
+95.0,stat,Observations,m3,647,,,,,
+96.0,stat,R-squared (within),m1,0.001,,,,,
+96.0,stat,R-squared (within),m2,-0.057,,,,,
+96.0,stat,R-squared (within),m3,-0.164,,,,,

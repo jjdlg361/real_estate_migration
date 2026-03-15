@@ -1,0 +1,61 @@
+row_order,row_kind,row_label,col_key,display,source_model,source_term,coef,std_err,p_value
+1.0,coef,Lagged net migration rate,m1,0.120***,,L1_net_migration_rate,0.1204687497737406,0.0387767093645857,0.0021882381263862
+1.0,coef,Lagged net migration rate,m2,0.131***,,L1_net_migration_rate,0.1311271361928357,0.0364647522788292,0.0004144871008373
+1.0,coef,Lagged net migration rate,m3,0.116***,,L1_net_migration_rate,0.1163116679741118,0.0296851012051654,0.0001310236347196
+1.0,coef,Lagged net migration rate,m4,0.134***,,L1_net_migration_rate,0.1342702793638826,0.0436662798886433,0.0024718609941005
+1.001,se,,m1,(0.039),,L1_net_migration_rate,0.1204687497737406,0.0387767093645857,0.0021882381263862
+1.001,se,,m2,(0.036),,L1_net_migration_rate,0.1311271361928357,0.0364647522788292,0.0004144871008373
+1.001,se,,m3,(0.030),,L1_net_migration_rate,0.1163116679741118,0.0296851012051654,0.0001310236347196
+1.001,se,,m4,(0.044),,L1_net_migration_rate,0.1342702793638826,0.0436662798886433,0.0024718609941005
+2.0,coef,"Lagged weighted avg. origin GDPpc (log, PPP)",m1,,,L1_origin_gdp_pc_ppp_const_wavg_log,,,
+2.0,coef,"Lagged weighted avg. origin GDPpc (log, PPP)",m2,0.750,,L1_origin_gdp_pc_ppp_const_wavg_log,0.750284897602756,2.1840493630467206,0.7315904132246889
+2.0,coef,"Lagged weighted avg. origin GDPpc (log, PPP)",m3,,,L1_origin_gdp_pc_ppp_const_wavg_log,,,
+2.0,coef,"Lagged weighted avg. origin GDPpc (log, PPP)",m4,4.144,,L1_origin_gdp_pc_ppp_const_wavg_log,4.143536356542753,4.362067455127546,0.3435770364005659
+2.001,se,,m1,,,L1_origin_gdp_pc_ppp_const_wavg_log,,,
+2.001,se,,m2,(2.184),,L1_origin_gdp_pc_ppp_const_wavg_log,0.750284897602756,2.1840493630467206,0.7315904132246889
+2.001,se,,m3,,,L1_origin_gdp_pc_ppp_const_wavg_log,,,
+2.001,se,,m4,(4.362),,L1_origin_gdp_pc_ppp_const_wavg_log,4.143536356542753,4.362067455127546,0.3435770364005659
+3.0,coef,Lagged share of inflows from Latin America/Caribbean,m1,,,L1_share_group_LATAM_CARIB,,,
+3.0,coef,Lagged share of inflows from Latin America/Caribbean,m2,,,L1_share_group_LATAM_CARIB,,,
+3.0,coef,Lagged share of inflows from Latin America/Caribbean,m3,-7.788,,L1_share_group_LATAM_CARIB,-7.787715858796294,14.297225213896676,0.5867034747155659
+3.0,coef,Lagged share of inflows from Latin America/Caribbean,m4,-9.376,,L1_share_group_LATAM_CARIB,-9.375845091448896,14.37096479994022,0.5150576211530256
+3.001,se,,m1,,,L1_share_group_LATAM_CARIB,,,
+3.001,se,,m2,,,L1_share_group_LATAM_CARIB,,,
+3.001,se,,m3,(14.297),,L1_share_group_LATAM_CARIB,-7.787715858796294,14.297225213896676,0.5867034747155659
+3.001,se,,m4,(14.371),,L1_share_group_LATAM_CARIB,-9.375845091448896,14.37096479994022,0.5150576211530256
+4.0,coef,Lagged share of inflows from EU/EEA/CH/UK,m1,,,L1_share_group_EU_EEA_CH_UK,,,
+4.0,coef,Lagged share of inflows from EU/EEA/CH/UK,m2,,,L1_share_group_EU_EEA_CH_UK,,,
+4.0,coef,Lagged share of inflows from EU/EEA/CH/UK,m3,2.842,,L1_share_group_EU_EEA_CH_UK,2.8421253388658645,5.516662937742493,0.6071187660916912
+4.0,coef,Lagged share of inflows from EU/EEA/CH/UK,m4,-3.214,,L1_share_group_EU_EEA_CH_UK,-3.213585672036917,8.923413259478892,0.7192192635116172
+4.001,se,,m1,,,L1_share_group_EU_EEA_CH_UK,,,
+4.001,se,,m2,,,L1_share_group_EU_EEA_CH_UK,,,
+4.001,se,,m3,(5.517),,L1_share_group_EU_EEA_CH_UK,2.8421253388658645,5.516662937742493,0.6071187660916912
+4.001,se,,m4,(8.923),,L1_share_group_EU_EEA_CH_UK,-3.213585672036917,8.923413259478892,0.7192192635116172
+5.0,coef,Lagged share of inflows from MENA,m1,,,L1_share_group_MENA,,,
+5.0,coef,Lagged share of inflows from MENA,m2,,,L1_share_group_MENA,,,
+5.0,coef,Lagged share of inflows from MENA,m3,12.162,,L1_share_group_MENA,12.16199633863292,8.927641323227373,0.174987266856269
+5.0,coef,Lagged share of inflows from MENA,m4,13.519,,L1_share_group_MENA,13.519073113138257,9.291999480314797,0.1476276017195104
+5.001,se,,m1,,,L1_share_group_MENA,,,
+5.001,se,,m2,,,L1_share_group_MENA,,,
+5.001,se,,m3,(8.928),,L1_share_group_MENA,12.16199633863292,8.927641323227373,0.174987266856269
+5.001,se,,m4,(9.292),,L1_share_group_MENA,13.519073113138257,9.291999480314797,0.1476276017195104
+90.0,midrule,,m1,,,,,,
+90.0,midrule,,m2,,,,,,
+90.0,midrule,,m3,,,,,,
+90.0,midrule,,m4,,,,,,
+91.0,stat,Country FE,m1,Yes,,,,,
+91.0,stat,Country FE,m2,Yes,,,,,
+91.0,stat,Country FE,m3,Yes,,,,,
+91.0,stat,Country FE,m4,Yes,,,,,
+92.0,stat,Year FE,m1,Yes,,,,,
+92.0,stat,Year FE,m2,Yes,,,,,
+92.0,stat,Year FE,m3,Yes,,,,,
+92.0,stat,Year FE,m4,Yes,,,,,
+93.0,stat,Macro + air controls,m1,Yes,,,,,
+93.0,stat,Macro + air controls,m2,Yes,,,,,
+93.0,stat,Macro + air controls,m3,Yes,,,,,
+93.0,stat,Macro + air controls,m4,Yes,,,,,
+94.0,stat,Observations,m1,232,,,,,
+94.0,stat,Observations,m2,232,,,,,
+94.0,stat,Observations,m3,207,,,,,
+94.0,stat,Observations,m4,207,,,,,

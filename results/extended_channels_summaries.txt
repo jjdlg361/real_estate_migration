@@ -1,0 +1,324 @@
+# annual_ext_baseline
+Formula: hpi_growth ~ 1 + L1_net_migration_rate + L1_air_growth + L1_gdp_pc_growth + L1_unemployment_rate + L1_inflation_hicp + L1_long_rate + L1_pop_growth + EntityEffects + TimeEffects
+
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:             hpi_growth   R-squared:                        0.1889
+Estimator:                   PanelOLS   R-squared (Between):             -0.2870
+No. Observations:                 647   R-squared (Within):              -0.1042
+Date:                Fri, Mar 13 2026   R-squared (Overall):             -0.2097
+Time:                        12:14:54   Log-likelihood                   -1826.3
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      18.736
+Entities:                          44   P-value                           0.0000
+Avg Obs:                       14.705   Distribution:                   F(7,563)
+Min Obs:                       5.0000                                           
+Max Obs:                       33.000   F-statistic (robust):            -5.6998
+                                        P-value                           1.0000
+Time periods:                      34   Distribution:                   F(7,563)
+Avg Obs:                       19.029                                           
+Min Obs:                       3.0000                                           
+Max Obs:                       43.000                                           
+                                                                                
+                                   Parameter Estimates                                   
+=========================================================================================
+                       Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-----------------------------------------------------------------------------------------
+Intercept                 6.5465     1.6050     4.0787     0.0001      3.3939      9.6991
+L1_net_migration_rate     0.0869     0.0568     1.5308     0.1264     -0.0246      0.1984
+L1_air_growth             0.0138     0.0315     0.4367     0.6625     -0.0482      0.0757
+L1_gdp_pc_growth          0.6611     0.2044     3.2350     0.0013      0.2597      1.0625
+L1_unemployment_rate     -0.5179     0.1877    -2.7588     0.0060     -0.8866     -0.1492
+L1_inflation_hicp         0.2528     0.1984     1.2738     0.2032     -0.1370      0.6426
+L1_long_rate              0.1011     0.0975     1.0369     0.3002     -0.0904      0.2926
+L1_pop_growth             0.2482     0.2263     1.0969     0.2732     -0.1962      0.6927
+=========================================================================================
+
+F-test for Poolability: 4.8362
+P-value: 0.0000
+Distribution: F(76,563)
+
+Included effects: Entity, Time
+
+# annual_ext_mig_types
+Formula: hpi_growth ~ 1 + L1_non_asylum_immigration_rate_per_1000 + L1_asylum_rate_per_1000 + L1_naturalization_rate_per_1000 + L1_air_growth + L1_gdp_pc_growth + L1_unemployment_rate + L1_inflation_hicp + L1_long_rate + L1_pop_growth + EntityEffects + TimeEffects
+
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:             hpi_growth   R-squared:                        0.1569
+Estimator:                   PanelOLS   R-squared (Between):              0.1655
+No. Observations:                 279   R-squared (Within):              -0.2359
+Date:                Fri, Mar 13 2026   R-squared (Overall):             -0.1035
+Time:                        12:14:54   Log-likelihood                   -710.20
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      4.7981
+Entities:                          29   P-value                           0.0000
+Avg Obs:                       9.6207   Distribution:                   F(9,232)
+Min Obs:                       4.0000                                           
+Max Obs:                      10.0000   F-statistic (robust):             0.2768
+                                        P-value                           0.9805
+Time periods:                      10   Distribution:                   F(9,232)
+Avg Obs:                       27.900                                           
+Min Obs:                       27.000                                           
+Max Obs:                       28.000                                           
+                                                                                
+                                            Parameter Estimates                                            
+===========================================================================================================
+                                         Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-----------------------------------------------------------------------------------------------------------
+Intercept                                   9.4788     4.0475     2.3419     0.0200      1.5042      17.453
+L1_non_asylum_immigration_rate_per_1000    -0.0130     0.1164    -0.1114     0.9114     -0.2422      0.2163
+L1_asylum_rate_per_1000                     0.1779     0.1410     1.2622     0.2082     -0.0998      0.4556
+L1_naturalization_rate_per_1000             0.0140     0.3749     0.0375     0.9701     -0.7245      0.7526
+L1_air_growth                              -0.0002     0.0280    -0.0077     0.9939     -0.0553      0.0549
+L1_gdp_pc_growth                            0.3391     0.1550     2.1872     0.0297      0.0336      0.6445
+L1_unemployment_rate                       -0.6806     0.3377    -2.0153     0.0450     -1.3459     -0.0152
+L1_inflation_hicp                           0.3595     0.1536     2.3407     0.0201      0.0569      0.6621
+L1_long_rate                               -0.1776     0.2877    -0.6173     0.5376     -0.7444      0.3892
+L1_pop_growth                              -0.4700     0.4187    -1.1224     0.2629     -1.2950      0.3550
+===========================================================================================================
+
+F-test for Poolability: 5.4193
+P-value: 0.0000
+Distribution: F(37,232)
+
+Included effects: Entity, Time
+
+# annual_ext_mig_types_cars
+Formula: hpi_growth ~ 1 + L1_non_asylum_immigration_rate_per_1000 + L1_asylum_rate_per_1000 + L1_naturalization_rate_per_1000 + L1_acq_origin_gdp_wavg_log + L1_car_reg_total_per_1000 + L1_car_reg_elc_share + L1_air_growth + L1_gdp_pc_growth + L1_unemployment_rate + L1_inflation_hicp + L1_long_rate + L1_pop_growth + EntityEffects + TimeEffects
+
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:             hpi_growth   R-squared:                        0.1948
+Estimator:                   PanelOLS   R-squared (Between):             -1.0618
+No. Observations:                 275   R-squared (Within):               0.1423
+Date:                Fri, Mar 13 2026   R-squared (Overall):             -0.2833
+Time:                        12:14:54   Log-likelihood                   -691.22
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      4.5366
+Entities:                          29   P-value                           0.0000
+Avg Obs:                       9.4828   Distribution:                  F(12,225)
+Min Obs:                       4.0000                                           
+Max Obs:                      10.0000   F-statistic (robust):             2.9079
+                                        P-value                           0.0009
+Time periods:                      10   Distribution:                  F(12,225)
+Avg Obs:                       27.500                                           
+Min Obs:                       26.000                                           
+Max Obs:                       28.000                                           
+                                                                                
+                                            Parameter Estimates                                            
+===========================================================================================================
+                                         Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-----------------------------------------------------------------------------------------------------------
+Intercept                                  -13.049     20.706    -0.6302     0.5292     -53.853      27.754
+L1_non_asylum_immigration_rate_per_1000    -0.0532     0.1184    -0.4497     0.6534     -0.2866      0.1801
+L1_asylum_rate_per_1000                     0.2016     0.1211     1.6643     0.0974     -0.0371      0.4402
+L1_naturalization_rate_per_1000             0.1494     0.3999     0.3736     0.7091     -0.6386      0.9374
+L1_acq_origin_gdp_wavg_log                  1.7438     2.1843     0.7983     0.4255     -2.5606      6.0482
+L1_car_reg_total_per_1000                   0.1871     0.1254     1.4926     0.1369     -0.0599      0.4341
+L1_car_reg_elc_share                       -9.0332     5.7869    -1.5610     0.1199     -20.437      2.3703
+L1_air_growth                              -0.0073     0.0234    -0.3127     0.7548     -0.0535      0.0388
+L1_gdp_pc_growth                            0.3051     0.1378     2.2139     0.0278      0.0335      0.5766
+L1_unemployment_rate                       -0.2782     0.3233    -0.8605     0.3904     -0.9154      0.3589
+L1_inflation_hicp                           0.2204     0.1902     1.1587     0.2478     -0.1544      0.5953
+L1_long_rate                               -0.5440     0.4408    -1.2340     0.2185     -1.4127      0.3247
+L1_pop_growth                              -0.5751     0.1393    -4.1274     0.0001     -0.8496     -0.3005
+===========================================================================================================
+
+F-test for Poolability: 5.3254
+P-value: 0.0000
+Distribution: F(37,225)
+
+Included effects: Entity, Time
+
+# quarterly_ext_air_only
+Formula: hpi_yoy ~ 1 + L1_air_yoy + EntityEffects + TimeEffects
+
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:                hpi_yoy   R-squared:                        0.0161
+Estimator:                   PanelOLS   R-squared (Between):              0.0291
+No. Observations:                2205   R-squared (Within):              -0.0534
+Date:                Fri, Mar 13 2026   R-squared (Overall):             -0.0470
+Time:                        12:14:54   Log-likelihood                   -6655.9
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      33.868
+Entities:                          29   P-value                           0.0000
+Avg Obs:                       76.034   Distribution:                  F(1,2074)
+Min Obs:                       59.000                                           
+Max Obs:                       98.000   F-statistic (robust):             9.1788
+                                        P-value                           0.0025
+Time periods:                     102   Distribution:                  F(1,2074)
+Avg Obs:                       21.618                                           
+Min Obs:                       1.0000                                           
+Max Obs:                       29.000                                           
+                                                                                
+                             Parameter Estimates                              
+==============================================================================
+            Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+------------------------------------------------------------------------------
+Intercept      4.0902                                                         
+L1_air_yoy     0.0417     0.0138     3.0297     0.0025      0.0147      0.0687
+==============================================================================
+
+F-test for Poolability: 16.324
+P-value: 0.0000
+Distribution: F(129,2074)
+
+Included effects: Entity, Time
+
+# quarterly_ext_nonair_mobility
+Formula: hpi_yoy ~ 1 + L1_air_yoy + L1_tour_total_yoy + L1_asylum_first_q_per100k + L1_tps_ua_stock_qe_per100k + EntityEffects + TimeEffects
+
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:                hpi_yoy   R-squared:                        0.0698
+Estimator:                   PanelOLS   R-squared (Between):             -0.2154
+No. Observations:                 380   R-squared (Within):               0.0218
+Date:                Fri, Mar 13 2026   R-squared (Overall):             -0.1101
+Time:                        12:14:54   Log-likelihood                   -961.38
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      6.2869
+Entities:                          28   P-value                           0.0001
+Avg Obs:                       13.571   Distribution:                   F(4,335)
+Min Obs:                       11.000                                           
+Max Obs:                       14.000   F-statistic (robust):             11.975
+                                        P-value                           0.0000
+Time periods:                      14   Distribution:                   F(4,335)
+Avg Obs:                       27.143                                           
+Min Obs:                       23.000                                           
+Max Obs:                       28.000                                           
+                                                                                
+                                     Parameter Estimates                                      
+==============================================================================================
+                            Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------------------
+Intercept                      5.4566     1.5536     3.5122     0.0005      2.4005      8.5126
+L1_air_yoy                     0.0096     0.0196     0.4903     0.6242     -0.0289      0.0481
+L1_tour_total_yoy             -0.0224     0.0112    -2.0074     0.0455     -0.0444     -0.0005
+L1_asylum_first_q_per100k      0.0199     0.0074     2.6761     0.0078      0.0053      0.0345
+L1_tps_ua_stock_qe_per100k    -0.0008     0.0006    -1.3749     0.1701     -0.0020      0.0004
+==============================================================================================
+
+F-test for Poolability: 22.240
+P-value: 0.0000
+Distribution: F(40,335)
+
+Included effects: Entity, Time
+
+# quarterly_ext_full
+Formula: hpi_yoy ~ 1 + L1_air_yoy + L1_tour_total_yoy + L1_asylum_first_q_per100k + L1_tps_ua_stock_qe_per100k + L1_pax_per_move_total + L1_airfare_yoy_q + EntityEffects + TimeEffects
+
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:                hpi_yoy   R-squared:                        0.0906
+Estimator:                   PanelOLS   R-squared (Between):             -0.1631
+No. Observations:                 352   R-squared (Within):              -0.0209
+Date:                Fri, Mar 13 2026   R-squared (Overall):             -0.0700
+Time:                        12:14:54   Log-likelihood                   -890.34
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      5.0820
+Entities:                          27   P-value                           0.0001
+Avg Obs:                       13.037   Distribution:                   F(6,306)
+Min Obs:                       2.0000                                           
+Max Obs:                       14.000   F-statistic (robust):             21.499
+                                        P-value                           0.0000
+Time periods:                      14   Distribution:                   F(6,306)
+Avg Obs:                       25.143                                           
+Min Obs:                       23.000                                           
+Max Obs:                       27.000                                           
+                                                                                
+                                     Parameter Estimates                                      
+==============================================================================================
+                            Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------------------
+Intercept                     -0.2539     3.2398    -0.0784     0.9376     -6.6290      6.1213
+L1_air_yoy                     0.0118     0.0199     0.5932     0.5535     -0.0273      0.0509
+L1_tour_total_yoy             -0.0214     0.0102    -2.0952     0.0370     -0.0414     -0.0013
+L1_asylum_first_q_per100k      0.0261     0.0088     2.9625     0.0033      0.0088      0.0434
+L1_tps_ua_stock_qe_per100k    -0.0006     0.0008    -0.7607     0.4474     -0.0023      0.0010
+L1_pax_per_move_total          0.0481     0.0357     1.3467     0.1791     -0.0222      0.1183
+L1_airfare_yoy_q               0.0069     0.0165     0.4162     0.6776     -0.0256      0.0393
+==============================================================================================
+
+F-test for Poolability: 16.006
+P-value: 0.0000
+Distribution: F(39,306)
+
+Included effects: Entity, Time
+
+# origin_remit_baseline
+Formula: wb_gdp_pc_growth ~ 1 + L1_outflow_rate_per_1000 + L1_wb_remit_in_pct_gdp + EntityEffects + TimeEffects
+
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:       wb_gdp_pc_growth   R-squared:                        0.0022
+Estimator:                   PanelOLS   R-squared (Between):             -0.0170
+No. Observations:                4378   R-squared (Within):              -0.0011
+Date:                Fri, Mar 13 2026   R-squared (Overall):             -0.0008
+Time:                        12:14:54   Log-likelihood                 -1.16e+04
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      4.6240
+Entities:                         194   P-value                           0.0099
+Avg Obs:                       22.567   Distribution:                  F(2,4157)
+Min Obs:                       1.0000                                           
+Max Obs:                       26.000   F-statistic (robust):             1.8118
+                                        P-value                           0.1635
+Time periods:                      26   Distribution:                  F(2,4157)
+Avg Obs:                       168.38                                           
+Min Obs:                       143.00                                           
+Max Obs:                       181.00                                           
+                                                                                
+                                    Parameter Estimates                                     
+============================================================================================
+                          Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------------------
+Intercept                    1.9143     0.1859     10.299     0.0000      1.5499      2.2787
+L1_outflow_rate_per_1000     0.1082     0.0589     1.8380     0.0661     -0.0072      0.2236
+L1_wb_remit_in_pct_gdp       0.0231     0.0375     0.6171     0.5372     -0.0504      0.0967
+============================================================================================
+
+F-test for Poolability: 11.153
+P-value: 0.0000
+Distribution: F(218,4157)
+
+Included effects: Entity, Time
+
+# origin_remit_interaction
+Formula: wb_gdp_pc_growth ~ 1 + L1_outflow_rate_per_1000 + L1_wb_remit_in_pct_gdp + L1_outflow_x_remit_in + L1_wb_unemployment + EntityEffects + TimeEffects
+
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:       wb_gdp_pc_growth   R-squared:                        0.0058
+Estimator:                   PanelOLS   R-squared (Between):             -0.0851
+No. Observations:                4025   R-squared (Within):               0.0067
+Date:                Fri, Mar 13 2026   R-squared (Overall):             -0.0129
+Time:                        12:14:54   Log-likelihood                 -1.05e+04
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      5.6119
+Entities:                         173   P-value                           0.0002
+Avg Obs:                       23.266   Distribution:                  F(4,3823)
+Min Obs:                       1.0000                                           
+Max Obs:                       26.000   F-statistic (robust):             2.8265
+                                        P-value                           0.0235
+Time periods:                      26   Distribution:                  F(4,3823)
+Avg Obs:                       154.81                                           
+Min Obs:                       137.00                                           
+Max Obs:                       162.00                                           
+                                                                                
+                                    Parameter Estimates                                     
+============================================================================================
+                          Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------------------
+Intercept                    1.1777     0.3735     3.1536     0.0016      0.4455      1.9099
+L1_outflow_rate_per_1000     0.0902     0.0853     1.0578     0.2902     -0.0770      0.2574
+L1_wb_remit_in_pct_gdp       0.0414     0.0356     1.1618     0.2454     -0.0284      0.1112
+L1_outflow_x_remit_in        0.0044     0.0110     0.4030     0.6869     -0.0171      0.0259
+L1_wb_unemployment           0.0907     0.0511     1.7757     0.0759     -0.0094      0.1909
+============================================================================================
+
+F-test for Poolability: 11.742
+P-value: 0.0000
+Distribution: F(197,3823)
+
+Included effects: Entity, Time

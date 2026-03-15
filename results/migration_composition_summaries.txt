@@ -1,0 +1,343 @@
+# annual_fe_immig_volume_origin_gdp
+Formula: hpi_growth ~ 1 + L1_immigration_rate_per_1000 + L1_origin_gdp_pc_ppp_const_wavg_log + EntityEffects + TimeEffects
+
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:             hpi_growth   R-squared:                        0.0283
+Estimator:                   PanelOLS   R-squared (Between):              0.1366
+No. Observations:                 217   R-squared (Within):              -0.0529
+Date:                Fri, Mar 13 2026   R-squared (Overall):              0.0447
+Time:                        12:29:08   Log-likelihood                   -549.19
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      2.6349
+Entities:                          24   P-value                           0.0745
+Avg Obs:                       9.0417   Distribution:                   F(2,181)
+Min Obs:                       1.0000                                           
+Max Obs:                       11.000   F-statistic (robust):             0.7903
+                                        P-value                           0.4553
+Time periods:                      11   Distribution:                   F(2,181)
+Avg Obs:                       19.727                                           
+Min Obs:                       17.000                                           
+Max Obs:                       22.000                                           
+                                                                                
+                                          Parameter Estimates                                          
+=======================================================================================================
+                                     Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-------------------------------------------------------------------------------------------------------
+Intercept                              -5.4054     26.007    -0.2078     0.8356     -56.721      45.911
+L1_immigration_rate_per_1000            0.1754     0.1404     1.2487     0.2134     -0.1017      0.4525
+L1_origin_gdp_pc_ppp_const_wavg_log     0.8938     2.4725     0.3615     0.7181     -3.9848      5.7724
+=======================================================================================================
+
+F-test for Poolability: 6.8849
+P-value: 0.0000
+Distribution: F(33,181)
+
+Included effects: Entity, Time
+
+# annual_fe_immig_volume_origin_gdp_controls
+Formula: hpi_growth ~ 1 + L1_immigration_rate_per_1000 + L1_origin_gdp_pc_ppp_const_wavg_log + L1_air_growth + L1_gdp_pc_growth + L1_unemployment_rate + L1_inflation_hicp + L1_long_rate + L1_pop_growth + EntityEffects + TimeEffects
+
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:             hpi_growth   R-squared:                        0.2912
+Estimator:                   PanelOLS   R-squared (Between):             -0.1209
+No. Observations:                 211   R-squared (Within):               0.0571
+Date:                Fri, Mar 13 2026   R-squared (Overall):             -0.1386
+Time:                        12:29:08   Log-likelihood                   -501.47
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      8.6788
+Entities:                          24   P-value                           0.0000
+Avg Obs:                       8.7917   Distribution:                   F(8,169)
+Min Obs:                       1.0000                                           
+Max Obs:                       11.000   F-statistic (robust):             2.2859
+                                        P-value                           0.0239
+Time periods:                      11   Distribution:                   F(8,169)
+Avg Obs:                       19.182                                           
+Min Obs:                       17.000                                           
+Max Obs:                       21.000                                           
+                                                                                
+                                          Parameter Estimates                                          
+=======================================================================================================
+                                     Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-------------------------------------------------------------------------------------------------------
+Intercept                               24.478     21.439     1.1417     0.2552     -17.845      66.801
+L1_immigration_rate_per_1000           -0.0670     0.0987    -0.6792     0.4979     -0.2618      0.1278
+L1_origin_gdp_pc_ppp_const_wavg_log    -1.2081     1.9613    -0.6160     0.5387     -5.0799      2.6637
+L1_air_growth                          -0.0150     0.0439    -0.3427     0.7323     -0.1017      0.0716
+L1_gdp_pc_growth                        0.6686     0.1751     3.8188     0.0002      0.3230      1.0142
+L1_unemployment_rate                   -0.8797     0.2538    -3.4659     0.0007     -1.3808     -0.3787
+L1_inflation_hicp                       0.2633     0.1754     1.5012     0.1352     -0.0829      0.6094
+L1_long_rate                           -0.6787     0.4622    -1.4683     0.1439     -1.5911      0.2338
+L1_pop_growth                           0.2964     0.7410     0.4000     0.6896     -1.1663      1.7592
+=======================================================================================================
+
+F-test for Poolability: 4.8976
+P-value: 0.0000
+Distribution: F(33,169)
+
+Included effects: Entity, Time
+
+# annual_fe_immig_origin_gdp_interaction
+Formula: hpi_growth ~ 1 + L1_immigration_rate_per_1000 + L1_origin_gdp_pc_ppp_const_wavg_log_c + L1_immigration_rate_per_1000:L1_origin_gdp_pc_ppp_const_wavg_log_c + L1_air_growth + L1_gdp_pc_growth + L1_unemployment_rate + L1_inflation_hicp + L1_long_rate + L1_pop_growth + EntityEffects + TimeEffects
+
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:             hpi_growth   R-squared:                        0.2972
+Estimator:                   PanelOLS   R-squared (Between):             -0.0473
+No. Observations:                 211   R-squared (Within):              -0.0046
+Date:                Fri, Mar 13 2026   R-squared (Overall):             -0.1463
+Time:                        12:29:08   Log-likelihood                   -500.58
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      7.8924
+Entities:                          24   P-value                           0.0000
+Avg Obs:                       8.7917   Distribution:                   F(9,168)
+Min Obs:                       1.0000                                           
+Max Obs:                       11.000   F-statistic (robust):            -5.3017
+                                        P-value                           1.0000
+Time periods:                      11   Distribution:                   F(9,168)
+Avg Obs:                       19.182                                           
+Min Obs:                       17.000                                           
+Max Obs:                       21.000                                           
+                                                                                
+                                                         Parameter Estimates                                                          
+======================================================================================================================================
+                                                                    Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                              12.043     2.5966     4.6379     0.0000      6.9166      17.169
+L1_immigration_rate_per_1000                                          -0.0303     0.0552    -0.5479     0.5845     -0.1393      0.0788
+L1_origin_gdp_pc_ppp_const_wavg_log_c                                 -3.6966     4.0746    -0.9072     0.3656     -11.741      4.3475
+L1_air_growth                                                         -0.0131     0.0417    -0.3155     0.7528     -0.0954      0.0691
+L1_gdp_pc_growth                                                       0.6611     0.1736     3.8080     0.0002      0.3184      1.0038
+L1_unemployment_rate                                                  -0.9135     0.2542    -3.5931     0.0004     -1.4154     -0.4116
+L1_inflation_hicp                                                      0.3094     0.2077     1.4892     0.1383     -0.1008      0.7195
+L1_long_rate                                                          -0.6956     0.5047    -1.3783     0.1700     -1.6919      0.3007
+L1_pop_growth                                                          0.1727     0.7923     0.2179     0.8277     -1.3915      1.7368
+L1_immigration_rate_per_1000:L1_origin_gdp_pc_ppp_const_wavg_log_c     0.2223     0.2173     1.0230     0.3078     -0.2067      0.6514
+======================================================================================================================================
+
+F-test for Poolability: 4.9527
+P-value: 0.0000
+Distribution: F(33,168)
+
+Included effects: Entity, Time
+
+# annual_fe_immig_origin_income_shares
+Formula: hpi_growth ~ 1 + L1_immigration_rate_per_1000 + L1_share_high_gdp_origins + L1_share_low_gdp_origins + L1_air_growth + L1_gdp_pc_growth + L1_unemployment_rate + L1_inflation_hicp + L1_long_rate + L1_pop_growth + EntityEffects + TimeEffects
+
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:             hpi_growth   R-squared:                        0.2949
+Estimator:                   PanelOLS   R-squared (Between):             -0.1470
+No. Observations:                 211   R-squared (Within):               0.0851
+Date:                Fri, Mar 13 2026   R-squared (Overall):             -0.1278
+Time:                        12:29:08   Log-likelihood                   -500.92
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      7.8069
+Entities:                          24   P-value                           0.0000
+Avg Obs:                       8.7917   Distribution:                   F(9,168)
+Min Obs:                       1.0000                                           
+Max Obs:                       11.000   F-statistic (robust):            -158.90
+                                        P-value                           1.0000
+Time periods:                      11   Distribution:                   F(9,168)
+Avg Obs:                       19.182                                           
+Min Obs:                       17.000                                           
+Max Obs:                       21.000                                           
+                                                                                
+                                      Parameter Estimates                                       
+================================================================================================
+                              Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+------------------------------------------------------------------------------------------------
+Intercept                        10.192     2.9886     3.4103     0.0008      4.2919      16.092
+L1_immigration_rate_per_1000    -0.0468     0.0884    -0.5289     0.5976     -0.2213      0.1278
+L1_share_high_gdp_origins        1.2403     2.0930     0.5926     0.5542     -2.8916      5.3722
+L1_share_low_gdp_origins         5.9957     7.0986     0.8446     0.3995     -8.0183      20.010
+L1_air_growth                   -0.0144     0.0432    -0.3327     0.7398     -0.0997      0.0709
+L1_gdp_pc_growth                 0.6564     0.1742     3.7678     0.0002      0.3125      1.0004
+L1_unemployment_rate            -0.8122     0.2540    -3.1980     0.0017     -1.3136     -0.3108
+L1_inflation_hicp                0.2735     0.1945     1.4061     0.1615     -0.1105      0.6574
+L1_long_rate                    -0.7501     0.5336    -1.4058     0.1616     -1.8036      0.3033
+L1_pop_growth                    0.2440     0.7808     0.3125     0.7551     -1.2975      1.7854
+================================================================================================
+
+F-test for Poolability: 4.8861
+P-value: 0.0000
+Distribution: F(33,168)
+
+Included effects: Entity, Time
+
+# annual_fe_netmig_controls_matchedsample
+Formula: hpi_growth ~ 1 + L1_net_migration_rate + L1_air_growth + L1_gdp_pc_growth + L1_unemployment_rate + L1_inflation_hicp + L1_long_rate + L1_pop_growth + EntityEffects + TimeEffects
+
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:             hpi_growth   R-squared:                        0.3284
+Estimator:                   PanelOLS   R-squared (Between):             -0.1869
+No. Observations:                 232   R-squared (Within):               0.0684
+Date:                Fri, Mar 13 2026   R-squared (Overall):             -0.0464
+Time:                        12:29:08   Log-likelihood                   -550.32
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      12.992
+Entities:                          24   P-value                           0.0000
+Avg Obs:                       9.6667   Distribution:                   F(7,186)
+Min Obs:                       1.0000                                           
+Max Obs:                       12.000   F-statistic (robust):             31.609
+                                        P-value                           0.0000
+Time periods:                      16   Distribution:                   F(7,186)
+Avg Obs:                       14.500                                           
+Min Obs:                       1.0000                                           
+Max Obs:                       21.000                                           
+                                                                                
+                                   Parameter Estimates                                   
+=========================================================================================
+                       Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-----------------------------------------------------------------------------------------
+Intercept                 9.8337     2.3157     4.2464     0.0000      5.2652      14.402
+L1_net_migration_rate     0.1205     0.0388     3.1067     0.0022      0.0440      0.1970
+L1_air_growth            -0.0198     0.0422    -0.4681     0.6402     -0.1031      0.0636
+L1_gdp_pc_growth          0.7425     0.1372     5.4122     0.0000      0.4718      1.0131
+L1_unemployment_rate     -0.6258     0.2455    -2.5495     0.0116     -1.1101     -0.1416
+L1_inflation_hicp         0.1829     0.1511     1.2102     0.2278     -0.1153      0.4810
+L1_long_rate             -0.7724     0.4605    -1.6775     0.0951     -1.6809      0.1360
+L1_pop_growth            -0.1538     0.5440    -0.2828     0.7777     -1.2271      0.9194
+=========================================================================================
+
+F-test for Poolability: 9.3274
+P-value: 0.0000
+Distribution: F(38,186)
+
+Included effects: Entity, Time
+
+# annual_fe_netmig_plus_origin_gdpcomp
+Formula: hpi_growth ~ 1 + L1_net_migration_rate + L1_origin_gdp_pc_ppp_const_wavg_log + L1_air_growth + L1_gdp_pc_growth + L1_unemployment_rate + L1_inflation_hicp + L1_long_rate + L1_pop_growth + EntityEffects + TimeEffects
+
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:             hpi_growth   R-squared:                        0.3290
+Estimator:                   PanelOLS   R-squared (Between):             -0.1403
+No. Observations:                 232   R-squared (Within):               0.0694
+Date:                Fri, Mar 13 2026   R-squared (Overall):             -0.0301
+Time:                        12:29:08   Log-likelihood                   -550.21
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      11.340
+Entities:                          24   P-value                           0.0000
+Avg Obs:                       9.6667   Distribution:                   F(8,185)
+Min Obs:                       1.0000                                           
+Max Obs:                       12.000   F-statistic (robust):             1743.0
+                                        P-value                           0.0000
+Time periods:                      16   Distribution:                   F(8,185)
+Avg Obs:                       14.500                                           
+Min Obs:                       1.0000                                           
+Max Obs:                       21.000                                           
+                                                                                
+                                          Parameter Estimates                                          
+=======================================================================================================
+                                     Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-------------------------------------------------------------------------------------------------------
+Intercept                               2.0527     23.344     0.0879     0.9300     -44.001      48.107
+L1_net_migration_rate                   0.1311     0.0365     3.5960     0.0004      0.0592      0.2031
+L1_origin_gdp_pc_ppp_const_wavg_log     0.7503     2.1840     0.3435     0.7316     -3.5586      5.0591
+L1_air_growth                          -0.0200     0.0426    -0.4701     0.6389     -0.1041      0.0640
+L1_gdp_pc_growth                        0.7356     0.1365     5.3888     0.0000      0.4663      1.0050
+L1_unemployment_rate                   -0.6203     0.2514    -2.4680     0.0145     -1.1162     -0.1244
+L1_inflation_hicp                       0.1888     0.1563     1.2078     0.2287     -0.1196      0.4972
+L1_long_rate                           -0.7657     0.4750    -1.6120     0.1087     -1.7028      0.1714
+L1_pop_growth                          -0.1216     0.5937    -0.2048     0.8379     -1.2928      1.0496
+=======================================================================================================
+
+F-test for Poolability: 8.8291
+P-value: 0.0000
+Distribution: F(38,185)
+
+Included effects: Entity, Time
+
+# annual_fe_netmig_plus_origin_groupshares
+Formula: hpi_growth ~ 1 + L1_net_migration_rate + L1_share_group_LATAM_CARIB + L1_share_group_EU_EEA_CH_UK + L1_share_group_MENA + L1_air_growth + L1_gdp_pc_growth + L1_unemployment_rate + L1_inflation_hicp + L1_long_rate + L1_pop_growth + EntityEffects + TimeEffects
+
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:             hpi_growth   R-squared:                        0.3580
+Estimator:                   PanelOLS   R-squared (Between):             -0.8401
+No. Observations:                 207   R-squared (Within):               0.1369
+Date:                Fri, Mar 13 2026   R-squared (Overall):             -0.2082
+Time:                        12:29:08   Log-likelihood                   -491.10
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      9.0894
+Entities:                          20   P-value                           0.0000
+Avg Obs:                       10.350   Distribution:                  F(10,163)
+Min Obs:                       3.0000                                           
+Max Obs:                       12.000   F-statistic (robust):             8.6159
+                                        P-value                           0.0000
+Time periods:                      15   Distribution:                  F(10,163)
+Avg Obs:                       13.800                                           
+Min Obs:                       1.0000                                           
+Max Obs:                       18.000                                           
+                                                                                
+                                      Parameter Estimates                                      
+===============================================================================================
+                             Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-----------------------------------------------------------------------------------------------
+Intercept                       8.1574     4.1654     1.9584     0.0519     -0.0677      16.383
+L1_net_migration_rate           0.1163     0.0297     3.9182     0.0001      0.0577      0.1749
+L1_share_group_LATAM_CARIB     -7.7877     14.297    -0.5447     0.5867     -36.019      20.444
+L1_share_group_EU_EEA_CH_UK     2.8421     5.5167     0.5152     0.6071     -8.0512      13.735
+L1_share_group_MENA             12.162     8.9276     1.3623     0.1750     -5.4667      29.791
+L1_air_growth                  -0.0191     0.0423    -0.4510     0.6526     -0.1025      0.0644
+L1_gdp_pc_growth                0.7493     0.1232     6.0840     0.0000      0.5061      0.9925
+L1_unemployment_rate           -0.6327     0.2104    -3.0066     0.0031     -1.0483     -0.2172
+L1_inflation_hicp               0.1883     0.2034     0.9258     0.3559     -0.2134      0.5900
+L1_long_rate                   -0.7492     0.4647    -1.6122     0.1089     -1.6668      0.1684
+L1_pop_growth                  -0.3063     0.5444    -0.5625     0.5745     -1.3813      0.7688
+===============================================================================================
+
+F-test for Poolability: 9.9722
+P-value: 0.0000
+Distribution: F(33,163)
+
+Included effects: Entity, Time
+
+# annual_fe_netmig_plus_gdpcomp_groupshares
+Formula: hpi_growth ~ 1 + L1_net_migration_rate + L1_origin_gdp_pc_ppp_const_wavg_log + L1_share_group_LATAM_CARIB + L1_share_group_EU_EEA_CH_UK + L1_share_group_MENA + L1_air_growth + L1_gdp_pc_growth + L1_unemployment_rate + L1_inflation_hicp + L1_long_rate + L1_pop_growth + EntityEffects + TimeEffects
+
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:             hpi_growth   R-squared:                        0.3619
+Estimator:                   PanelOLS   R-squared (Between):             -0.7131
+No. Observations:                 207   R-squared (Within):               0.1390
+Date:                Fri, Mar 13 2026   R-squared (Overall):             -0.1752
+Time:                        12:29:08   Log-likelihood                   -490.47
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      8.3515
+Entities:                          20   P-value                           0.0000
+Avg Obs:                       10.350   Distribution:                  F(11,162)
+Min Obs:                       3.0000                                           
+Max Obs:                       12.000   F-statistic (robust):             11.175
+                                        P-value                           0.0000
+Time periods:                      15   Distribution:                  F(11,162)
+Avg Obs:                       13.800                                           
+Min Obs:                       1.0000                                           
+Max Obs:                       18.000                                           
+                                                                                
+                                          Parameter Estimates                                          
+=======================================================================================================
+                                     Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-------------------------------------------------------------------------------------------------------
+Intercept                              -31.229     41.664    -0.7495     0.4546     -113.50      51.045
+L1_net_migration_rate                   0.1343     0.0437     3.0749     0.0025      0.0480      0.2205
+L1_origin_gdp_pc_ppp_const_wavg_log     4.1435     4.3621     0.9499     0.3436     -4.4703      12.757
+L1_share_group_LATAM_CARIB             -9.3758     14.371    -0.6524     0.5151     -37.754      19.003
+L1_share_group_EU_EEA_CH_UK            -3.2136     8.9234    -0.3601     0.7192     -20.835      14.408
+L1_share_group_MENA                     13.519     9.2920     1.4549     0.1476     -4.8300      31.868
+L1_air_growth                          -0.0221     0.0438    -0.5048     0.6144     -0.1085      0.0643
+L1_gdp_pc_growth                        0.7468     0.1249     5.9802     0.0000      0.5002      0.9935
+L1_unemployment_rate                   -0.6645     0.2074    -3.2037     0.0016     -1.0741     -0.2549
+L1_inflation_hicp                       0.1857     0.2059     0.9019     0.3684     -0.2209      0.5922
+L1_long_rate                           -0.6713     0.4335    -1.5485     0.1234     -1.5273      0.1847
+L1_pop_growth                          -0.1478     0.6166    -0.2398     0.8108     -1.3655      1.0698
+=======================================================================================================
+
+F-test for Poolability: 8.1040
+P-value: 0.0000
+Distribution: F(33,162)
+
+Included effects: Entity, Time

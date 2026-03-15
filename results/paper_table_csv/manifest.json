@@ -1,0 +1,46 @@
+[
+  {
+    "tex": "paper_overleaf/tables/tab_baseline_annual.tex",
+    "csv": "results/paper_table_csv/tab_baseline_annual.csv"
+  },
+  {
+    "tex": "paper_overleaf/tables/tab_quarterly.tex",
+    "csv": "results/paper_table_csv/tab_quarterly.csv"
+  },
+  {
+    "tex": "paper_overleaf/tables/tab_traveler_quality_quarterly.tex",
+    "csv": "results/paper_table_csv/tab_traveler_quality_quarterly.csv"
+  },
+  {
+    "tex": "paper_overleaf/tables/tab_who_arrives_composition.tex",
+    "csv": "results/paper_table_csv/tab_who_arrives_composition.csv"
+  },
+  {
+    "tex": "paper_overleaf/tables/tab_iv_results.tex",
+    "csv": "results/paper_table_csv/tab_iv_results.csv"
+  },
+  {
+    "tex": "paper_overleaf/tables/tab_iv_diag.tex",
+    "csv": "results/paper_table_csv/tab_iv_diag.csv"
+  },
+  {
+    "tex": "paper_overleaf/tables/tab_desc.tex",
+    "csv": "results/paper_table_csv/tab_desc.csv"
+  },
+  {
+    "tex": "paper_overleaf/tables/tab_coverage.tex",
+    "csv": "results/paper_table_csv/tab_coverage.csv"
+  },
+  {
+    "tex": "paper_overleaf/tables/tab_iberia_top_origins.tex",
+    "csv": "results/paper_table_csv/tab_iberia_top_origins.csv"
+  },
+  {
+    "tex": "paper_overleaf/tables/tab_regional_fe.tex",
+    "csv": "results/paper_table_csv/tab_regional_fe.csv"
+  },
+  {
+    "tex": "paper_overleaf/tables/tab_event_pretrend.tex",
+    "csv": "results/paper_table_csv/tab_event_pretrend.csv"
+  }
+]
