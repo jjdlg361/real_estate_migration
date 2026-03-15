@@ -4,8 +4,8 @@ Replication package for the paper analysis.
 
 ## Package contents
 
-- `scripts/` — full data, estimation, diagnostics, and plotting pipeline
-- `data/` — raw and processed datasets used by the pipeline
+- `scripts/` — data, estimation, diagnostics, and plotting pipeline
+- `data/` — processed datasets used by the pipeline
 - `results/` — model outputs, diagnostics, projections, and CSV tables
 - `docs/` — research design and supporting documentation
 - `requirements.txt` — Python dependencies
