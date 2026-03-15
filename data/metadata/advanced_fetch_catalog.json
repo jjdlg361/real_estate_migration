@@ -1,0 +1,215 @@
+{
+  "generated_at_utc": "2026-03-06T09:15:37.768420+00:00",
+  "eurostat_tables": [
+    {
+      "name": "migr_imm5prv_od",
+      "code": "MIGR_IMM5PRV",
+      "filter_pars": {
+        "age": "TOTAL",
+        "agedef": "REACH",
+        "unit": "NR",
+        "sex": "T"
+      },
+      "rows": 9400,
+      "cols": 34,
+      "path": "data/raw/migr_imm5prv_od.csv",
+      "notes": "Immigration by previous usual residence (origin-destination country panel)."
+    },
+    {
+      "name": "migr_asyappctza_od",
+      "code": "MIGR_ASYAPPCTZA",
+      "filter_pars": {
+        "applicant": "FRST",
+        "age": "TOTAL",
+        "sex": "T",
+        "unit": "PER"
+      },
+      "rows": 7004,
+      "cols": 24,
+      "path": "data/raw/migr_asyappctza_od.csv",
+      "notes": "First-time asylum applicants by citizenship and destination (annual aggregated data)."
+    },
+    {
+      "name": "avia_paoac_m_passengers",
+      "code": "AVIA_PAOAC",
+      "filter_pars": {
+        "freq": "M",
+        "unit": "PAS",
+        "tra_meas": "PAS_CRD",
+        "partner": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK",
+          "UK"
+        ]
+      },
+      "rows": 11530,
+      "cols": 401,
+      "path": "data/raw/avia_paoac_m_passengers.csv",
+      "notes": "Monthly air passengers by reporting airport and partner reporting country."
+    },
+    {
+      "name": "avia_paoac_q_passengers",
+      "code": "AVIA_PAOAC",
+      "filter_pars": {
+        "freq": "Q",
+        "unit": "PAS",
+        "tra_meas": "PAS_CRD",
+        "partner": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK",
+          "UK"
+        ]
+      },
+      "rows": 11582,
+      "cols": 137,
+      "path": "data/raw/avia_paoac_q_passengers.csv",
+      "notes": "Quarterly air passengers by reporting airport and partner reporting country."
+    },
+    {
+      "name": "tgs00077_nuts2_air_passengers",
+      "code": "TGS00077",
+      "filter_pars": {
+        "tra_meas": "PAS_CRD",
+        "unit": "THS_PAS"
+      },
+      "rows": 224,
+      "cols": 16,
+      "path": "data/raw/tgs00077_nuts2_air_passengers.csv",
+      "notes": "NUTS2 air transport passengers (thousand passengers)."
+    },
+    {
+      "name": "tgs00099_nuts2_net_migration_rate",
+      "code": "TGS00099",
+      "filter_pars": {
+        "indic_de": "CNMIGRATRT"
+      },
+      "rows": 343,
+      "cols": 15,
+      "path": "data/raw/tgs00099_nuts2_net_migration_rate.csv",
+      "notes": "NUTS2 crude net migration plus adjustment rate."
+    },
+    {
+      "name": "tgs00003_nuts2_gdp",
+      "code": "TGS00003",
+      "filter_pars": {
+        "unit": "MIO_EUR"
+      },
+      "rows": 309,
+      "cols": 15,
+      "path": "data/raw/tgs00003_nuts2_gdp.csv",
+      "notes": "NUTS2 GDP (million EUR)."
+    },
+    {
+      "name": "tgs00010_nuts2_unemployment",
+      "code": "TGS00010",
+      "filter_pars": {
+        "isced11": "TOTAL",
+        "sex": "T",
+        "age": "Y15-74",
+        "unit": "PC"
+      },
+      "rows": 341,
+      "cols": 18,
+      "path": "data/raw/tgs00010_nuts2_unemployment.csv",
+      "notes": "NUTS2 unemployment rate (%)."
+    },
+    {
+      "name": "tgs00096_nuts2_population",
+      "code": "TGS00096",
+      "filter_pars": {
+        "unit": "NR",
+        "age": "TOTAL",
+        "sex": "T"
+      },
+      "rows": 350,
+      "cols": 17,
+      "path": "data/raw/tgs00096_nuts2_population.csv",
+      "notes": "NUTS2 population on 1 January (persons)."
+    },
+    {
+      "name": "tgs00026_nuts2_disposable_income",
+      "code": "TGS00026",
+      "filter_pars": {
+        "unit": "MIO_PPS_EU27_2020",
+        "direct": "BAL",
+        "na_item": "B6N"
+      },
+      "rows": 257,
+      "cols": 17,
+      "path": "data/raw/tgs00026_nuts2_disposable_income.csv",
+      "notes": "NUTS2 disposable income of private households (million PPS)."
+    }
+  ],
+  "world_bank_files": [
+    {
+      "path": "data/raw/worldbank_push_shocks_long.csv",
+      "rows": 70224,
+      "indicators": {
+        "NY.GDP.PCAP.KD.ZG": "wb_gdp_pc_growth",
+        "VC.BTL.DETH": "wb_battle_deaths",
+        "SP.POP.TOTL": "wb_population",
+        "SL.UEM.TOTL.ZS": "wb_unemployment"
+      }
+    }
+  ],
+  "oecd_files": [
+    {
+      "path": "data/raw/oecd_rhpi_all.csv",
+      "rows": 860397,
+      "url": "https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_RHPI@DF_RHPI_ALL,1.0/.?startPeriod=1990&format=csvfile",
+      "notes": "OECD DSD_RHPI@DF_RHPI_ALL (national and regional house price indices)"
+    }
+  ]
+}

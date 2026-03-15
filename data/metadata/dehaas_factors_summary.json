@@ -1,0 +1,10 @@
+{
+  "rows_panel": 3333,
+  "countries": 47,
+  "years_min": 1949,
+  "years_max": 2025,
+  "nonmissing_l1_origin_income_hump": 477,
+  "nonmissing_l1_network_stock_per_1000": 479,
+  "nonmissing_l1_network_hhi": 479,
+  "nonmissing_l1_asylum_share_inflows": 312
+}

@@ -1,0 +1,10 @@
+{
+  "airports_total": 425,
+  "coords_matched": 411,
+  "nuts2_matched": 411,
+  "match_rate_nuts2": 0.9670588235294117,
+  "methods": {
+    "contains": 411,
+    "null": 14
+  }
+}

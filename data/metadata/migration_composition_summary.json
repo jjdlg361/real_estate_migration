@@ -1,0 +1,91 @@
+{
+  "panel_rows": 3333,
+  "countries_total": 47,
+  "years_min": 1949,
+  "years_max": 2025,
+  "od_rows": 93668,
+  "od_destination_countries": 27,
+  "od_origin_countries": 243,
+  "origin_groups_present": [
+    "EAST_SE_ASIA",
+    "EU_EEA_CH_UK",
+    "LATAM_CARIB",
+    "MENA",
+    "NON_EUROPE_EUR_CIS",
+    "N_AMERICA",
+    "OCEANIA",
+    "OTHER",
+    "SOUTH_ASIA",
+    "SSA"
+  ],
+  "wb_origin_gdp_rows": 15972,
+  "wb_origin_gdp_origins": 242,
+  "nonmissing_L1_origin_gdp_comp": 477,
+  "nonmissing_L1_share_high": 477,
+  "median_od_gdp_coverage_share": 0.9965851770378108,
+  "median_od_vs_agg_immig_ratio": 0.9882412793488069,
+  "od_blend_meta": {
+    "blend_geos": [
+      "PT",
+      "UK"
+    ],
+    "geo_years_replaced": 1,
+    "geo_years_replaced_detail": [
+      {
+        "geo": "PT",
+        "years_replaced": "2008"
+      }
+    ],
+    "uk_ons_synthetic_bridge": {
+      "uk_ons_years_used": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "uk_ons_ratio_od_to_nonbrit": 0.6100419380252101,
+      "uk_ons_base_share_window": [
+        2015,
+        2019
+      ]
+    }
+  },
+  "od_blended_output_parquet": "/Users/josejuan/Desktop/Real Estate Migration/data/processed/od_migration_blended_for_composition.parquet",
+  "od_blended_output_csv": "/Users/josejuan/Desktop/Real Estate Migration/data/processed/od_migration_blended_for_composition.csv",
+  "models": [
+    {
+      "model": "annual_fe_immig_origin_gdp_interaction",
+      "nobs_model": 211.0
+    },
+    {
+      "model": "annual_fe_immig_origin_income_shares",
+      "nobs_model": 211.0
+    },
+    {
+      "model": "annual_fe_immig_volume_origin_gdp",
+      "nobs_model": 217.0
+    },
+    {
+      "model": "annual_fe_immig_volume_origin_gdp_controls",
+      "nobs_model": 211.0
+    },
+    {
+      "model": "annual_fe_netmig_controls_matchedsample",
+      "nobs_model": 232.0
+    },
+    {
+      "model": "annual_fe_netmig_plus_gdpcomp_groupshares",
+      "nobs_model": 207.0
+    },
+    {
+      "model": "annual_fe_netmig_plus_origin_gdpcomp",
+      "nobs_model": 232.0
+    },
+    {
+      "model": "annual_fe_netmig_plus_origin_groupshares",
+      "nobs_model": 207.0
+    }
+  ]
+}

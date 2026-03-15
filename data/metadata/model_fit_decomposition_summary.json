@@ -1,0 +1,88 @@
+{
+  "samples": [
+    {
+      "sample": "annual_headline_composition",
+      "rows_common_sample": 232,
+      "entities_common_sample": 24,
+      "periods_common_sample": 16,
+      "blocks": [
+        "migration",
+        "air",
+        "macros",
+        "origin_income_comp"
+      ],
+      "sequence": [
+        "migration",
+        "air",
+        "macros",
+        "origin_income_comp"
+      ],
+      "full_model": {
+        "r2_inclusive": 0.7754210045963874,
+        "r2_within": 0.06944235757174877,
+        "rmse": 2.5925590219822445,
+        "mae": 1.9821458043170923,
+        "corr_actual_fitted": 0.8805799251609068,
+        "formula": "hpi_growth ~ 1 + L1_air_growth + L1_gdp_pc_growth + L1_unemployment_rate + L1_inflation_hicp + L1_long_rate + L1_pop_growth + L1_net_migration_rate + L1_origin_gdp_pc_ppp_const_wavg_log + EntityEffects + TimeEffects"
+      }
+    },
+    {
+      "sample": "annual_extended_composition_groups",
+      "rows_common_sample": 207,
+      "entities_common_sample": 20,
+      "periods_common_sample": 15,
+      "blocks": [
+        "migration",
+        "air",
+        "macros",
+        "origin_income_comp",
+        "origin_region_shares"
+      ],
+      "sequence": [
+        "migration",
+        "air",
+        "macros",
+        "origin_income_comp",
+        "origin_region_shares"
+      ],
+      "full_model": {
+        "r2_inclusive": 0.7794992786076331,
+        "r2_within": 0.13897768551684953,
+        "rmse": 2.5870084954889068,
+        "mae": 1.9801399441314906,
+        "corr_actual_fitted": 0.8828925634569776,
+        "formula": "hpi_growth ~ 1 + L1_air_growth + L1_gdp_pc_growth + L1_unemployment_rate + L1_inflation_hicp + L1_long_rate + L1_pop_growth + L1_net_migration_rate + L1_origin_gdp_pc_ppp_const_wavg_log + L1_share_group_LATAM_CARIB + L1_share_group_EU_EEA_CH_UK + L1_share_group_MENA + EntityEffects + TimeEffects"
+      }
+    },
+    {
+      "sample": "quarterly_traveler_quality_full_interact",
+      "rows_common_sample": 1993,
+      "entities_common_sample": 28,
+      "periods_common_sample": 86,
+      "blocks": [
+        "air_growth",
+        "route_shocks",
+        "airfare_proxy",
+        "airline_mix_level",
+        "operating_intensity",
+        "interactions"
+      ],
+      "sequence": [
+        "air_growth",
+        "route_shocks",
+        "airfare_proxy",
+        "airline_mix_level",
+        "operating_intensity",
+        "interactions"
+      ],
+      "full_model": {
+        "r2_inclusive": 0.5525576709660767,
+        "r2_within": -0.03716700857125699,
+        "rmse": 4.781192152232622,
+        "mae": 3.6353212380921796,
+        "corr_actual_fitted": 0.7433422300435238,
+        "formula": "hpi_yoy ~ 1 + L1_air_yoy + L1_airfare_yoy_q_c + L1_lic_neu_share_pas_c + L1_air_yoy:L1_lic_neu_share_pas_c + L1_air_yoy:L1_airfare_yoy_q_c + L1_pax_per_move_total + L1_open_rate_norm_q + L1_close_rate_norm_q + EntityEffects + TimeEffects"
+      }
+    }
+  ]
+}

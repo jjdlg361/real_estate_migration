@@ -1,0 +1,10 @@
+{
+  "annual_extended_rows": 3333,
+  "quarterly_extended_rows": 5567,
+  "origin_remittance_rows": 6534,
+  "annual_countries": 47,
+  "quarterly_countries": 47,
+  "origin_panel_origins": 242,
+  "quarterly_period_min": "1990Q1",
+  "quarterly_period_max": "2025Q4"
+}

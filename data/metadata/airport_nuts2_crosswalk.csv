@@ -1,0 +1,426 @@
+rep_airp,country,icao,airport_name,municipality,latitude_deg,longitude_deg,coord_match,nuts2,crosswalk_method,distance_deg
+AT_LOWG,AT,LOWG,Graz Airport,Feldkirchen bei Graz,46.9911,15.4396,matched,AT22,contains,0.0
+AT_LOWI,AT,LOWI,Innsbruck Airport,Innsbruck,47.260201,11.344,matched,AT33,contains,0.0
+AT_LOWK,AT,LOWK,Klagenfurt Airport,Klagenfurt am Wörthersee,46.642502,14.3377,matched,AT21,contains,0.0
+AT_LOWL,AT,LOWL,Linz-Hörsching Airport,Linz,48.235362,14.188128,matched,AT31,contains,0.0
+AT_LOWS,AT,LOWS,Salzburg Airport,Salzburg,47.793301,13.0043,matched,AT32,contains,0.0
+AT_LOWW,AT,LOWW,Vienna International Airport,Vienna,48.110298,16.5697,matched,AT12,contains,0.0
+BE_EBAW,BE,EBAW,Antwerp International Airport (Deurne),Antwerp,51.190667,4.463153,matched,BE21,contains,0.0
+BE_EBBR,BE,EBBR,Brussels Airport,Zaventem,50.901402,4.48444,matched,BE24,contains,0.0
+BE_EBCI,BE,EBCI,Brussels South Charleroi Airport,Charleroi,50.461963,4.459562,matched,BE32,contains,0.0
+BE_EBLG,BE,EBLG,Liège Airport,Grâce-Hollogne,50.638574,5.443897,matched,BE33,contains,0.0
+BE_EBOS,BE,EBOS,Ostend-Bruges International Airport,Oostende,51.1998,2.874673,matched,BE25,contains,0.0
+BG_LBBG,BG,LBBG,Burgas Airport,Burgas,42.569917,27.515173,matched,BG34,contains,0.0
+BG_LBPD,BG,LBPD,Plovdiv International Airport,Plovdiv,42.067799,24.8508,matched,BG42,contains,0.0
+BG_LBSF,BG,LBSF,Sofia Airport,Sofia,42.696357,23.417671,matched,BG41,contains,0.0
+BG_LBWN,BG,LBWN,Varna Airport,Varna,43.232101,27.8251,matched,BG33,contains,0.0
+CY_LCLK,CY,LCLK,Larnaca International Airport,Larnaca,34.875099,33.624901,matched,CY00,contains,0.0
+CY_LCPH,CY,LCPH,Paphos International Airport,Paphos,34.717999,32.485699,matched,CY00,contains,0.0
+CZ_LKCS,CZ,LKCS,České Budějovice South Bohemian Airport,České Budějovice,48.948171,14.42832,matched,CZ03,contains,0.0
+CZ_LKKV,CZ,LKKV,Karlovy Vary Airport,Karlovy Vary,50.202999,12.915,matched,CZ04,contains,0.0
+CZ_LKMT,CZ,LKMT,Leoš Janáček Airport Ostrava,Mošnov,49.696301,18.111099,matched,CZ08,contains,0.0
+CZ_LKPD,CZ,LKPD,Pardubice Airport,Pardubice,50.015049,15.73981,matched,CZ05,contains,0.0
+CZ_LKPR,CZ,LKPR,Václav Havel Airport Prague,Prague,50.100874,14.259911,matched,CZ01,contains,0.0
+CZ_LKTB,CZ,LKTB,Brno-Tuřany Airport,Brno,49.151276,16.693972,matched,CZ06,contains,0.0
+DE_EDDB,DE,EDDB,Berlin Brandenburg Airport,Berlin,52.361738,13.502341,matched,DE40,contains,0.0
+DE_EDDC,DE,EDDC,Dresden Airport,Dresden,51.134123,13.767831,matched,DED2,contains,0.0
+DE_EDDE,DE,EDDE,Erfurt-Weimar Airport,Erfurt,50.978281,10.960713,matched,DEG0,contains,0.0
+DE_EDDF,DE,EDDF,Frankfurt Main Airport,Frankfurt am Main,50.026706,8.55835,matched,DE71,contains,0.0
+DE_EDDG,DE,EDDG,Münster Osnabrück Airport,Greven,52.133816,7.688482,matched,DEA3,contains,0.0
+DE_EDDH,DE,EDDH,Hamburg Helmut Schmidt Airport,Hamburg,53.630402,9.98823,matched,DE60,contains,0.0
+DE_EDDI,DE,EDDI,,,,,unmatched,,,
+DE_EDDK,DE,EDDK,Cologne Bonn Airport,Köln (Cologne),50.865898,7.14274,matched,DEA2,contains,0.0
+DE_EDDL,DE,EDDL,Düsseldorf Airport,Düsseldorf,51.289501,6.76678,matched,DEA1,contains,0.0
+DE_EDDM,DE,EDDM,Munich Airport,Munich,48.353802,11.7861,matched,DE21,contains,0.0
+DE_EDDN,DE,EDDN,Nuremberg Airport,Nuremberg,49.498699,11.078056,matched,DE25,contains,0.0
+DE_EDDP,DE,EDDP,Leipzig/Halle Airport,Schkeuditz,51.420657,12.232705,matched,DED5,contains,0.0
+DE_EDDR,DE,EDDR,Saarbrücken Airport,Saarbrücken,49.217562,7.111667,matched,DEC0,contains,0.0
+DE_EDDS,DE,EDDS,Stuttgart Airport,Stuttgart,48.689899,9.22196,matched,DE11,contains,0.0
+DE_EDDT,DE,EDDT,,,,,unmatched,,,
+DE_EDDV,DE,EDDV,Hannover Airport,Hannover,52.461102,9.68508,matched,DE92,contains,0.0
+DE_EDDW,DE,EDDW,Bremen Airport,Bremen,53.046786,8.78932,matched,DE50,contains,0.0
+DE_EDFH,DE,EDFH,Frankfurt-Hahn Airport,Frankfurt am Main (Lautzenhausen),49.946353,7.261734,matched,DEB1,contains,0.0
+DE_EDHL,DE,EDHL,Lübeck Blankensee Airport,Lübeck,53.805401,10.7192,matched,DEF0,contains,0.0
+DE_EDJA,DE,EDJA,Memmingen Allgau Airport,Memmingen,47.988092,10.238248,matched,DE27,contains,0.0
+DE_EDLP,DE,EDLP,Paderborn Lippstadt Airport,Büren,51.612527,8.617459,matched,DEA4,contains,0.0
+DE_EDLV,DE,EDLV,Weeze (Niederrhein) Airport,Weeze,51.601362,6.141228,matched,DEA1,contains,0.0
+DE_EDLW,DE,EDLW,Dortmund Airport,Dortmund,51.518299,7.61224,matched,DEA5,contains,0.0
+DE_EDNY,DE,EDNY,Bodensee Airport Friedrichshafen,Friedrichshafen,47.671299,9.51149,matched,DE14,contains,0.0
+DE_EDRZ,DE,EDRZ,Zweibrücken Airport,Zweibrücken,49.2094,7.40056,matched,DEB3,contains,0.0
+DE_EDSB,DE,EDSB,Karlsruhe Baden-Baden Airport,Rheinmünster,48.7794,8.0805,matched,DE12,contains,0.0
+DE_EDTK,DE,EDTK,Sinsheim Airfield,Sinsheim,49.2472,8.8938,matched,DE12,contains,0.0
+DE_EDXW,DE,EDXW,Westerland Sylt Airport,Sylt,54.9132,8.34047,matched,DEF0,contains,0.0
+DE_ETIE,DE,ETIE,,,,,unmatched,,,
+DE_ETNL,DE,ETNL,Rostock-Laage Airport,Laage,53.918201,12.2783,matched,DE80,contains,0.0
+DK_EKAH,DK,EKAH,Aarhus Airport,Aarhus,56.303331,10.618286,matched,DK04,contains,0.0
+DK_EKBI,DK,EKBI,Billund Airport,Billund,55.740335,9.157019,matched,DK03,contains,0.0
+DK_EKCH,DK,EKCH,Copenhagen Kastrup Airport,Copenhagen,55.617900848389,12.656000137329,matched,DK01,contains,0.0
+DK_EKEB,DK,EKEB,Esbjerg Airport,Esbjerg,55.525902,8.5534,matched,DK03,contains,0.0
+DK_EKKA,DK,EKKA,Midtjyllands Airport / Air Base Karup,Karup,56.297139,9.104311,matched,DK04,contains,0.0
+DK_EKRK,DK,EKRK,Copenhagen Roskilde Airport,Roskilde,55.585602,12.1314,matched,DK02,contains,0.0
+DK_EKRN,DK,EKRN,Bornholm Airport,Rønne,55.063301,14.7596,matched,DK01,contains,0.0
+DK_EKSB,DK,EKSB,Sønderborg Airport,Sønderborg,54.96440124511719,9.791729927062988,matched,DK03,contains,0.0
+DK_EKTS,DK,EKTS,Thisted Airport,Thisted,57.068802,8.70522,matched,DK05,contains,0.0
+DK_EKYT,DK,EKYT,Aalborg Airport,Aalborg,57.094763,9.84993,matched,DK05,contains,0.0
+EE_EETN,EE,EETN,Lennart Meri Tallinn Airport,Tallinn,59.413246,24.83264,matched,EE00,contains,0.0
+ES_GCFV,ES,GCFV,Fuerteventura Airport,El Matorral,28.4527,-13.8638,matched,ES70,contains,0.0
+ES_GCHI,ES,GCHI,El Hierro Airport,El Hierro Island,27.8148,-17.8871,matched,ES70,contains,0.0
+ES_GCLA,ES,GCLA,La Palma Airport,"Sta Cruz de la Palma, La Palma Island",28.626499,-17.7556,matched,ES70,contains,0.0
+ES_GCLP,ES,GCLP,Gran Canaria Airport,Gran Canaria Island,27.9319,-15.3866,matched,ES70,contains,0.0
+ES_GCRR,ES,GCRR,César Manrique-Lanzarote Airport,San Bartolomé,28.945499,-13.6052,matched,ES70,contains,0.0
+ES_GCTS,ES,GCTS,Tenerife Sur Airport,Tenerife,28.0445,-16.5725,matched,ES70,contains,0.0
+ES_GCXO,ES,GCXO,Tenerife Norte-Ciudad de La Laguna Airport,Tenerife,28.482752,-16.341707,matched,ES70,contains,0.0
+ES_GEML,ES,GEML,Melilla Airport,Melilla,35.2798,-2.95626,matched,ES64,contains,0.0
+ES_LEAL,ES,LEAL,Alicante-Elche Miguel Hernández Airport,Alicante,38.2822,-0.558156,matched,ES52,contains,0.0
+ES_LEAM,ES,LEAM,Almería Airport,Almería,36.843899,-2.3701,matched,ES61,contains,0.0
+ES_LEAS,ES,LEAS,Asturias Airport,Ranón,43.563599,-6.03462,matched,ES12,contains,0.0
+ES_LEBB,ES,LEBB,Bilbao Airport,Bilbao,43.301102,-2.91061,matched,ES21,contains,0.0
+ES_LEBL,ES,LEBL,Josep Tarradellas Barcelona-El Prat Airport,Barcelona,41.2971,2.07846,matched,ES51,contains,0.0
+ES_LECO,ES,LECO,A Coruña Airport,Culleredo,43.302101,-8.37726,matched,ES11,contains,0.0
+ES_LEGE,ES,LEGE,Girona-Costa Brava Airport,Girona,41.904639,2.761774,matched,ES51,contains,0.0
+ES_LEGR,ES,LEGR,F.G.L. Airport Granada-Jaén Airport,Granada,37.188702,-3.77736,matched,ES61,contains,0.0
+ES_LEIB,ES,LEIB,Ibiza Airport,Ibiza (Eivissa),38.872898,1.37312,matched,ES53,contains,0.0
+ES_LEJR,ES,LEJR,Jerez Airport,Jerez de la Frontera,36.744598,-6.06011,matched,ES61,contains,0.0
+ES_LELC,ES,LELC,San Javier Airport,San Javier,37.775002,-0.812389,matched,ES62,contains,0.0
+ES_LEMD,ES,LEMD,Adolfo Suárez Madrid–Barajas Airport,Madrid,40.493407,-3.572249,matched,ES30,contains,0.0
+ES_LEMG,ES,LEMG,Málaga-Costa del Sol Airport,Málaga,36.6749,-4.49911,matched,ES61,contains,0.0
+ES_LEMH,ES,LEMH,Menorca Airport,Mahón (Maó),39.862598,4.21865,matched,ES53,contains,0.0
+ES_LEMI,ES,LEMI,Region of Murcia International Airport,Corvera,37.802852,-1.124884,matched,ES62,contains,0.0
+ES_LEPA,ES,LEPA,Palma de Mallorca Airport,Palma de Mallorca,39.551701,2.73881,matched,ES53,contains,0.0
+ES_LEPP,ES,LEPP,Pamplona Airport,Pamplona,42.77,-1.64633,matched,ES22,contains,0.0
+ES_LERS,ES,LERS,Reus Airport,Reus,41.147509,1.168354,matched,ES51,contains,0.0
+ES_LESO,ES,LESO,San Sebastián Airport,Hondarribia,43.356499,-1.79061,matched,ES21,contains,0.0
+ES_LEST,ES,LEST,Santiago-Rosalía de Castro Airport,Santiago de Compostela,42.896301,-8.41514,matched,ES11,contains,0.0
+ES_LETO,ES,LETO,Madrid–Torrejón Airport / Torrejón Air Base,Madrid,40.487875,-3.456808,matched,ES30,contains,0.0
+ES_LEVC,ES,LEVC,Valencia Airport,Valencia,39.489162,-0.480961,matched,ES52,contains,0.0
+ES_LEVD,ES,LEVD,Valladolid Airport,Valladolid,41.7061,-4.85194,matched,ES41,contains,0.0
+ES_LEVT,ES,LEVT,Vitoria Airport,Alava,42.882801,-2.72447,matched,ES21,contains,0.0
+ES_LEVX,ES,LEVX,Vigo Airport,Vigo,42.2318,-8.62677,matched,ES11,contains,0.0
+ES_LEXJ,ES,LEXJ,Seve Ballesteros-Santander Airport,Santander,43.427101,-3.82001,matched,ES13,contains,0.0
+ES_LEZG,ES,LEZG,Zaragoza Airport,Zaragoza,41.666199,-1.04155,matched,ES24,contains,0.0
+ES_LEZL,ES,LEZL,Seville Airport,Seville,37.417999,-5.89311,matched,ES61,contains,0.0
+FI_EFET,FI,EFET,Enontekio Airport,Enontekio,68.362602233887,23.424299240112,matched,FI1D,contains,0.0
+FI_EFHA,FI,EFHA,Halli Airport,Jämsä,61.856039,24.786686,matched,FI19,contains,0.0
+FI_EFHF,FI,EFHF,,,,,unmatched,,,
+FI_EFHK,FI,EFHK,Helsinki Vantaa Airport,Helsinki (Vantaa),60.318363,24.963341,matched,FI1B,contains,0.0
+FI_EFIV,FI,EFIV,Ivalo Airport,Ivalo,68.6073,27.4053,matched,FI1D,contains,0.0
+FI_EFJO,FI,EFJO,Joensuu Airport,Joensuu,62.658815,29.619398,matched,FI1D,contains,0.0
+FI_EFJY,FI,EFJY,Jyväskylä Airport,Jyväskylän Maalaiskunta,62.399502,25.678301,matched,FI19,contains,0.0
+FI_EFKE,FI,EFKE,Kemi-Tornio Airport,Kemi / Tornio,65.778701782227,24.582099914551,matched,FI1D,contains,0.0
+FI_EFKI,FI,EFKI,Kajaani Airport,Kajaani,64.2855,27.6924,matched,FI1D,contains,0.0
+FI_EFKK,FI,EFKK,Kokkola-Pietarsaari Airport,Kokkola / Kruunupyy,63.721199,23.143101,matched,FI19,contains,0.0
+FI_EFKS,FI,EFKS,Kuusamo Airport,Kuusamo,65.987602,29.239401,matched,FI1D,contains,0.0
+FI_EFKT,FI,EFKT,Kittilä International Airport,Kittilä,67.700996,24.8468,matched,FI1D,contains,0.0
+FI_EFKU,FI,EFKU,Kuopio Airport,Kuopio / Siilinjärvi,63.007099,27.7978,matched,FI1D,contains,0.0
+FI_EFLP,FI,EFLP,Lappeenranta Airport,Lappeenranta,61.044601,28.144743,matched,FI1C,contains,0.0
+FI_EFMA,FI,EFMA,Mariehamn Airport,Mariehamn,60.1222,19.898199,matched,FI20,contains,0.0
+FI_EFOU,FI,EFOU,Oulu Airport,Oulu / Oulunsalo,64.930099,25.354601,matched,FI1D,contains,0.0
+FI_EFPO,FI,EFPO,Pori Airport,Pori,61.4617,21.799999,matched,FI19,contains,0.0
+FI_EFRO,FI,EFRO,Rovaniemi Airport,Rovaniemi,66.563327,25.829751,matched,FI1D,contains,0.0
+FI_EFSA,FI,EFSA,Savonlinna Airport,Savonlinna,61.9431,28.945101,matched,FI1D,contains,0.0
+FI_EFSI,FI,EFSI,Seinäjoki Airport,Seinäjoki / Ilmajoki,62.692101,22.8323,matched,FI19,contains,0.0
+FI_EFTP,FI,EFTP,Tampere-Pirkkala Airport,Tampere / Pirkkala,61.414101,23.604401,matched,FI19,contains,0.0
+FI_EFTU,FI,EFTU,Turku Airport,Turku,60.514099,22.2628,matched,FI1C,contains,0.0
+FI_EFUT,FI,EFUT,Utti Air Base,Utti / Valkeala,60.8964,26.9384,matched,FI1C,contains,0.0
+FI_EFVA,FI,EFVA,Vaasa Airport,Vaasa,63.05023,21.762543,matched,FI19,contains,0.0
+FI_EFVR,FI,EFVR,Varkaus Airport,Varkaus / Joroinen,62.171101,27.868601,matched,FI1D,contains,0.0
+FR_FMEE,FR,FMEE,Roland Garros Airport,Sainte-Marie,-20.890087,55.518894,matched,FRY4,contains,0.0
+FR_LFAT,FR,LFAT,Le Touquet-Côte d'Opale Airport,Le Touquet-Paris-Plage,50.518284,1.621656,matched,FRE1,contains,0.0
+FR_LFBA,FR,LFBA,Agen La Garenne airport,Agen,44.174171,0.59309,matched,FRI1,contains,0.0
+FR_LFBD,FR,LFBD,Bordeaux–Mérignac Airport,Bordeaux,44.82865,-0.715356,matched,FRI1,contains,0.0
+FR_LFBE,FR,LFBE,Bergerac Dordogne-Périgord airport,Bergerac,44.825298,0.518611,matched,FRI1,contains,0.0
+FR_LFBH,FR,LFBH,La Rochelle Île de Ré Airport,La Rochelle,46.179199,-1.19528,matched,FRI3,contains,0.0
+FR_LFBI,FR,LFBI,Poitiers-Biard Airport,Poitiers/Biard,46.5877,0.306666,matched,FRI3,contains,0.0
+FR_LFBL,FR,LFBL,Limoges Airport,Limoges/Bellegarde,45.862801,1.17944,matched,FRI2,contains,0.0
+FR_LFBO,FR,LFBO,Toulouse-Blagnac Airport,Toulouse/Blagnac,43.629101,1.36382,matched,FRJ2,contains,0.0
+FR_LFBP,FR,LFBP,Pau Pyrénées Airport,Pau/Pyrénées (Uzein),43.380001,-0.418611,matched,FRI1,contains,0.0
+FR_LFBT,FR,LFBT,Tarbes-Lourdes-Pyrénées Airport,Tarbes/Lourdes/Pyrénées,43.178699,-0.006439,matched,FRJ2,contains,0.0
+FR_LFBU,FR,LFBU,Angoulême Brie-Champniers airport,Angoulême,45.729198,0.221456,matched,FRI3,contains,0.0
+FR_LFBV,FR,LFBV,,,,,unmatched,,,
+FR_LFBX,FR,LFBX,Périgueux-Bassillac Airport,Périgueux/Bassillac,45.198101,0.815556,matched,FRI1,contains,0.0
+FR_LFBZ,FR,LFBZ,Biarritz Pays Basque airport,Biarritz,43.468372,-1.523223,matched,FRI1,contains,0.0
+FR_LFCK,FR,LFCK,Castres Mazamet Airport,Castres,43.556301,2.28918,matched,FRJ2,contains,0.0
+FR_LFCR,FR,LFCR,Rodez–Aveyron Airport,Rodez/Marcillac,44.407902,2.48267,matched,FRJ2,contains,0.0
+FR_LFDN,FR,LFDN,Rochefort-Saint-Agnant (BA 721) Airport,Rochefort/Saint-Agnant,45.887798,-0.983056,matched,FRI3,contains,0.0
+FR_LFHP,FR,LFHP,Le Puy-Loudes Airfield,"Chaspuzac, Haute-Loire",45.0807,3.76289,matched,FRK1,contains,0.0
+FR_LFJL,FR,LFJL,Metz-Nancy-Lorraine Airport,Goin,48.982101,6.25132,matched,FRF3,contains,0.0
+FR_LFJR,FR,LFJR,Angers Marcé airport,Angers,47.560299,-0.312222,matched,FRG0,contains,0.0
+FR_LFKB,FR,LFKB,Bastia-Poretta International airport,Bastia,42.5527,9.48373,matched,FRM0,contains,0.0
+FR_LFKC,FR,LFKC,Calvi Sainte Catherine Airport,Calvi,42.530422,8.792984,matched,FRM0,contains,0.0
+FR_LFKF,FR,LFKF,Figari Sud-Corse Airport,Figari,41.50185,9.097092,matched,FRM0,contains,0.0
+FR_LFKJ,FR,LFKJ,Ajaccio Napoléon Bonaparte airport,Ajaccio,41.923599,8.80292,matched,FRM0,contains,0.0
+FR_LFLB,FR,LFLB,Chambéry Aix les Bains airport,Chambéry,45.6381,5.88023,matched,FRK2,contains,0.0
+FR_LFLC,FR,LFLC,Clermont-Ferrand Auvergne airport,Clermont-Ferrand,45.786701,3.16917,matched,FRK1,contains,0.0
+FR_LFLJ,FR,LFLJ,Courchevel Altiport,Saint-Bon,45.397531,6.63498,matched,FRK2,contains,0.0
+FR_LFLL,FR,LFLL,Lyon Saint-Exupéry Airport,"Colombier-Saugnieu, Rhône",45.725996,5.090139,matched,FRK2,contains,0.0
+FR_LFLP,FR,LFLP,Annecy Meythet airport,Annecy,45.928947,6.0987,matched,FRK2,contains,0.0
+FR_LFLS,FR,LFLS,Grenoble Alpes Isère Airport,Grenoble,45.3629,5.32937,matched,FRK2,contains,0.0
+FR_LFLW,FR,LFLW,Aurillac airport,Aurillac,44.891399,2.42194,matched,FRK1,contains,0.0
+FR_LFLX,FR,LFLX,Châteauroux Déols airport,Châteauroux,46.860221,1.728326,matched,FRB0,contains,0.0
+FR_LFLY,FR,LFLY,Lyon Bron Airport,"Chassieu, Lyon",45.727947,4.943991,matched,FRK2,contains,0.0
+FR_LFMD,FR,LFMD,Cannes Mandelieu Airport,Cannes,43.547998,6.955176,matched,FRL0,contains,0.0
+FR_LFMH,FR,LFMH,Saint-Étienne-Bouthéon Airport,"Andrézieux-Bouthéon, Loire",45.5406,4.29639,matched,FRK2,contains,0.0
+FR_LFMK,FR,LFMK,Carcassonne Salvaza Airport,Carcassonne,43.216,2.30632,matched,FRJ1,contains,0.0
+FR_LFML,FR,LFML,Marseille Provence Airport,"Marignane, Bouches-du-Rhône",43.438088,5.2125,matched,FRL0,contains,0.0
+FR_LFMN,FR,LFMN,Nice-Côte d'Azur Airport,"Nice, Alpes-Maritimes",43.658401,7.21587,matched,FRL0,contains,0.0
+FR_LFMP,FR,LFMP,Perpignan-Rivesaltes (Llabanère) Airport,Perpignan/Rivesaltes,42.740398,2.87067,matched,FRJ1,contains,0.0
+FR_LFMQ,FR,LFMQ,Le Castellet Airport,"Le Castellet, Var",43.252499,5.78519,matched,FRL0,contains,0.0
+FR_LFMT,FR,LFMT,Montpellier-Méditerranée Airport,Montpellier/Méditerranée,43.576199,3.96301,matched,FRJ1,contains,0.0
+FR_LFMU,FR,LFMU,Béziers Vias airport,Béziers,43.323502,3.3539,matched,FRJ1,contains,0.0
+FR_LFMV,FR,LFMV,Avignon Caumont airport,Avignon,43.907299,4.90183,matched,FRL0,contains,0.0
+FR_LFOB,FR,LFOB,Beauvais-Tillé airport,Beauvais,49.454399,2.11278,matched,FRE2,contains,0.0
+FR_LFOH,FR,LFOH,Le Havre-Octeville Airport,Le Havre,49.534038,0.088406,matched,FRD2,contains,0.0
+FR_LFOK,FR,LFOK,Chalons Vatry airport,Chalons en Champagne,48.77333,4.20611,matched,FRF2,contains,0.0
+FR_LFOP,FR,LFOP,Rouen Vallée de Seine Airport,Boos,49.384887,1.179142,matched,FRD2,contains,0.0
+FR_LFOT,FR,LFOT,Tours Val de Loire Airport,"Tours, Indre-et-Loire",47.432201,0.727606,matched,FRB0,contains,0.0
+FR_LFPG,FR,LFPG,Charles de Gaulle International Airport,"Paris (Roissy-en-France, Val-d'Oise)",49.00896,2.554117,matched,FR10,contains,0.0
+FR_LFPO,FR,LFPO,Paris-Orly Airport,"Paris (Orly, Val-de-Marne)",48.72333,2.37944,matched,FR10,contains,0.0
+FR_LFQQ,FR,LFQQ,Lille Airport,Lesquin,50.566564,3.102429,matched,FRE1,contains,0.0
+FR_LFRB,FR,LFRB,Brest Bretagne airport,Brest,48.447899,-4.41854,matched,FRH0,contains,0.0
+FR_LFRC,FR,LFRC,Cherbourg Manche airport,Cherbourg,49.650101,-1.47028,matched,FRD1,contains,0.0
+FR_LFRD,FR,LFRD,Dinard Pleurtuit Saint-Malo airport,Dinard,48.5877,-2.07996,matched,FRH0,contains,0.0
+FR_LFRG,FR,LFRG,Deauville Normandie airport,Deauville,49.365237,0.154481,matched,FRD1,contains,0.0
+FR_LFRH,FR,LFRH,Lorient South Brittany (Bretagne Sud) Airport,Lorient/Lann/Bihoué,47.760601,-3.44,matched,FRH0,contains,0.0
+FR_LFRK,FR,LFRK,Caen Carpiquet airport,Caen,49.17678,-0.454883,matched,FRD1,contains,0.0
+FR_LFRM,FR,LFRM,Le Mans-Arnage Airport,"Le Mans, Sarthe",47.948604,0.201702,matched,FRG0,contains,0.0
+FR_LFRN,FR,LFRN,Rennes-Saint-Jacques Airport,"Saint-Jacques-de-la-Lande, Ille-et-Vilaine",48.0695,-1.73479,matched,FRH0,contains,0.0
+FR_LFRO,FR,LFRO,Lannion Airport,Lannion,48.754398,-3.47166,matched,FRH0,contains,0.0
+FR_LFRQ,FR,LFRQ,Quimper-Cornouaille Airport,Quimper/Pluguffan,47.973031,-4.169655,matched,FRH0,contains,0.0
+FR_LFRS,FR,LFRS,Nantes Atlantique Airport,Nantes,47.153198,-1.61073,matched,FRG0,contains,0.0
+FR_LFRT,FR,LFRT,Saint-Brieuc-Armor Airport,"Trémuson, Côtes-d'Armor",48.538628,-2.853518,matched,FRH0,contains,0.0
+FR_LFRZ,FR,LFRZ,Saint-Nazaire-Montoir Airport,Saint-Nazaire/Montoir,47.31142,-2.152634,matched,FRG0,contains,0.0
+FR_LFSB,FR,LFSB,EuroAirport Basel–Mulhouse–Freiburg,Bâle / Mulhouse,47.60068,7.521117,matched,FRF1,contains,0.0
+FR_LFSD,FR,LFSD,Dijon Longvic airport,Dijon,47.268902,5.09,matched,FRC1,contains,0.0
+FR_LFSR,FR,LFSR,,,,,unmatched,,,
+FR_LFST,FR,LFST,Strasbourg Airport,Strasbourg,48.5383,7.62823,matched,FRF1,contains,0.0
+FR_LFTH,FR,LFTH,Toulon-Hyères Airport,"Hyères, Var",43.097301,6.14603,matched,FRL0,contains,0.0
+FR_LFTW,FR,LFTW,Nîmes-Arles-Camargue Airport,Nîmes/Garons,43.757401,4.41635,matched,FRJ1,contains,0.0
+FR_LFTZ,FR,LFTZ,La Môle Airport,Saint-Tropez,43.205399,6.482,matched,FRL0,contains,0.0
+FR_SOCA,FR,SOCA,Cayenne – Félix Eboué Airport,Matoury,4.819964,-52.361326,matched,FRY3,contains,0.0
+FR_TFFF,FR,TFFF,Martinique Aimé Césaire International Airport,Fort-de-France,14.591,-61.003201,matched,FRY2,contains,0.0
+FR_TFFR,FR,TFFR,Maryse Condé International Airport,Pointe-à-Pitre,16.265443,-61.532754,matched,FRY1,contains,0.0
+HR_LDDU,HR,LDDU,Dubrovnik Ruđer Bošković Airport,Dubrovnik,42.562247,18.265543,matched,HR03,contains,0.0
+HR_LDPL,HR,LDPL,Pula Airport,Pula,44.893501,13.9222,matched,HR03,contains,0.0
+HR_LDRI,HR,LDRI,Rijeka Airport,Rijeka(Omišalj),45.216376,14.57085,matched,HR03,contains,0.0
+HR_LDSP,HR,LDSP,Split Saint Jerome Airport,Split,43.538898,16.298,matched,HR03,contains,0.0
+HR_LDZA,HR,LDZA,Zagreb Franjo Tuđman International Airport,Velika Gorica,45.742901,16.0688,matched,HR06,contains,0.0
+HR_LDZD,HR,LDZD,Zadar Airport,Zadar,44.096986,15.353565,matched,HR03,contains,0.0
+HU_LHBP,HU,LHBP,Budapest Liszt Ferenc International Airport,Budapest,47.43018,19.262393,matched,HU12,contains,0.0
+HU_LHDC,HU,LHDC,Debrecen International Airport,Debrecen,47.489469,21.616278,matched,HU32,contains,0.0
+IE_EICK,IE,EICK,Cork International Airport,Cork,51.841301,-8.49111,matched,IE05,contains,0.0
+IE_EICM,IE,EICM,,,,,unmatched,,,
+IE_EIDW,IE,EIDW,Dublin Airport,Dublin,53.428713,-6.262121,matched,IE06,contains,0.0
+IE_EIKN,IE,EIKN,Ireland West Airport Knock,Charlestown,53.910439,-8.817002,matched,IE04,contains,0.0
+IE_EIKY,IE,EIKY,Kerry Airport,Farranfore,52.180901,-9.52378,matched,IE05,contains,0.0
+IE_EINN,IE,EINN,Shannon Airport,Shannon,52.702,-8.92482,matched,IE05,contains,0.0
+IS_BIAR,IS,BIAR,Akureyri International Airport,Akureyri,65.656573,-18.072018,matched,IS00,contains,0.0
+IS_BIEG,IS,BIEG,Egilsstaðir Airport,Egilsstaðir,65.2833023071289,-14.401399612426758,matched,IS00,contains,0.0
+IS_BIKF,IS,BIKF,Keflavik International Airport,Reykjavík,63.985001,-22.6056,matched,IS00,contains,0.0
+IS_BIRK,IS,BIRK,Reykjavík Domestic Airport,Reykjavík,64.128732,-21.93759,matched,IS00,contains,0.0
+IT_LIBC,IT,LIBC,Crotone Sant'Anna Pythagoras Airport,Isola di Capo Rizzuto (KR),38.9972,17.0802,matched,ITF6,contains,0.0
+IT_LIBD,IT,LIBD,Bari Karol Wojtyła International Airport,Bari,41.138901,16.760599,matched,ITF4,contains,0.0
+IT_LIBF,IT,LIBF,Foggia Gino Lisa Airport,Foggia (FG),41.433596,15.534566,matched,ITF4,contains,0.0
+IT_LIBG,IT,LIBG,Taranto-Grottaglie Marcello Arlotta Airport,Grottaglie,40.517502,17.4032,matched,ITF4,contains,0.0
+IT_LIBP,IT,LIBP,Abruzzo Airport,Pescara,42.431079,14.182981,matched,ITF1,contains,0.0
+IT_LIBR,IT,LIBR,Brindisi Airport,Brindisi,40.6576,17.947001,matched,ITF4,contains,0.0
+IT_LICA,IT,LICA,Lamezia Terme Sant'Eufemia International Airport,Lamezia Terme (CZ),38.906214,16.246007,matched,ITF6,contains,0.0
+IT_LICB,IT,LICB,Comiso Airport,Comiso,36.99583,14.60889,matched,ITG1,contains,0.0
+IT_LICC,IT,LICC,Catania-Fontanarossa Airport,Catania,37.466801,15.0664,matched,ITG1,contains,0.0
+IT_LICD,IT,LICD,Lampedusa Airport,Lampedusa,35.497898,12.6181,matched,ITG1,contains,0.0
+IT_LICG,IT,LICG,Pantelleria Airport,Pantelleria (TP),36.816502,11.9689,matched,ITG1,contains,0.0
+IT_LICJ,IT,LICJ,Falcone–Borsellino Airport,Palermo,38.175999,13.091,matched,ITG1,contains,0.0
+IT_LICR,IT,LICR,Reggio Calabria Airport,Reggio Calabria,38.071201,15.6516,matched,ITF6,contains,0.0
+IT_LICT,IT,LICT,Vincenzo Florio Airport Trapani-Birgi,Trapani (TP),37.9114,12.488,matched,ITG1,contains,0.0
+IT_LIEA,IT,LIEA,Alghero-Fertilia Airport,Alghero,40.632099,8.29077,matched,ITG2,contains,0.0
+IT_LIEE,IT,LIEE,Cagliari Elmas Airport,Cagliari,39.251499,9.05428,matched,ITG2,contains,0.0
+IT_LIEO,IT,LIEO,Olbia Costa Smeralda Airport,Olbia (SS),40.898953,9.518457,matched,ITG2,contains,0.0
+IT_LIMC,IT,LIMC,Milan Malpensa International Airport,Ferno (VA),45.6306,8.72811,matched,ITC4,contains,0.0
+IT_LIME,IT,LIME,Il Caravaggio International Airport,Orio al Serio (BG),45.669362,9.708851,matched,ITC4,contains,0.0
+IT_LIMF,IT,LIMF,Turin Airport,Caselle Torinese (TO),45.200802,7.64963,matched,ITC1,contains,0.0
+IT_LIMJ,IT,LIMJ,Genoa Cristoforo Colombo Airport,Genova (GE),44.412039,8.840732,matched,ITC3,contains,0.0
+IT_LIML,IT,LIML,Milano Linate Airport,Segrate (MI),45.445099,9.27674,matched,ITC4,contains,0.0
+IT_LIMP,IT,LIMP,Parma Airport,Parma (PR),44.826351,10.29705,matched,ITH5,contains,0.0
+IT_LIMZ,IT,LIMZ,Cuneo International Airport,Levaldigi (CN),44.547458,7.623045,matched,ITC1,contains,0.0
+IT_LIPB,IT,LIPB,Bolzano Airport,Bolzano (BZ),46.459245,11.326125,matched,ITH1,contains,0.0
+IT_LIPE,IT,LIPE,Bologna Guglielmo Marconi Airport,Bologna,44.5354,11.2887,matched,ITH5,contains,0.0
+IT_LIPH,IT,LIPH,Treviso Airport,Treviso (TV),45.648399,12.1944,matched,ITH3,contains,0.0
+IT_LIPK,IT,LIPK,Forlì-Luigi Ridolfi International Airport,Forlì (FC),44.194801,12.0701,matched,ITH5,contains,0.0
+IT_LIPO,IT,LIPO,Brescia Gabriele d'Annunzio Airport,Montichiari (BS),45.428902,10.3306,matched,ITC4,contains,0.0
+IT_LIPQ,IT,LIPQ,Trieste Airport,Ronchi dei Legionari/Trieste,45.827499,13.4722,matched,ITH4,contains,0.0
+IT_LIPR,IT,LIPR,Federico Fellini International Airport,Rimini (RN),44.020024,12.612198,matched,ITH5,contains,0.0
+IT_LIPX,IT,LIPX,Verona Villafranca Valerio Catullo Airport,Caselle (VR),45.394955,10.887303,matched,ITH3,contains,0.0
+IT_LIPY,IT,LIPY,Marche Airport,Falconara Marittima (AN),43.616299,13.3623,matched,ITI3,contains,0.0
+IT_LIPZ,IT,LIPZ,Venice Marco Polo Airport,Venezia (VE),45.505299,12.3519,matched,ITH3,contains,0.0
+IT_LIRA,IT,LIRA,Ciampino–G. B. Pastine International Airport,Rome,41.798769,12.595331,matched,ITI4,contains,0.0
+IT_LIRF,IT,LIRF,Rome–Fiumicino Leonardo da Vinci International Airport,Rome,41.804532,12.251998,matched,ITI4,contains,0.0
+IT_LIRN,IT,LIRN,Naples International Airport,Napoli,40.886002,14.2908,matched,ITF3,contains,0.0
+IT_LIRP,IT,LIRP,Pisa International Airport,Pisa (PI),43.683899,10.3927,matched,ITI1,contains,0.0
+IT_LIRQ,IT,LIRQ,"Florence Airport, Peretola",Firenze (FI),43.808558,11.202822,matched,ITI1,contains,0.0
+IT_LIRZ,IT,LIRZ,Perugia San Francesco d'Assisi – Umbria International Airport,Perugia (PG),43.095901,12.5132,matched,ITI2,contains,0.0
+LT_EYKA,LT,EYKA,Kaunas International Airport,Kaunas,54.963965,24.08582,matched,LT02,contains,0.0
+LT_EYPA,LT,EYPA,Palanga International Airport,Palanga,55.973202,21.093901,matched,LT02,contains,0.0
+LT_EYSA,LT,EYSA,Šiauliai International Airport,Šiauliai,55.89390182495117,23.395000457763672,matched,LT02,contains,0.0
+LT_EYVI,LT,EYVI,Vilnius International Airport,Vilnius,54.634102,25.285801,matched,LT01,contains,0.0
+LU_ELLX,LU,ELLX,Luxembourg-Findel International Airport,Luxembourg,49.626845,6.212134,matched,LU00,contains,0.0
+LV_EVRA,LV,EVRA,Riga International Airport,Riga,56.920752,23.970711,matched,LV00,contains,0.0
+MT_LMML,MT,LMML,Malta International Airport,Valletta,35.845932,14.491546,matched,MT00,contains,0.0
+NL_EHAM,NL,EHAM,Amsterdam Airport Schiphol,Amsterdam,52.308601,4.76389,matched,NL32,contains,0.0
+NL_EHBK,NL,EHBK,Maastricht Aachen Airport,Maastricht,50.911087,5.769401,matched,NL42,contains,0.0
+NL_EHEH,NL,EHEH,Eindhoven Airport,Eindhoven,51.4500999451,5.37452983856,matched,NL41,contains,0.0
+NL_EHGG,NL,EHGG,Groningen Airport Eelde,Groningen,53.119107,6.577652,matched,NL13,contains,0.0
+NL_EHRD,NL,EHRD,Rotterdam The Hague Airport,Rotterdam,51.956902,4.43722,matched,NL33,contains,0.0
+NO_ENAL,NO,ENAL,Ålesund Airport,Ålesund,62.560443,6.110845,matched,NO0A,contains,0.0
+NO_ENAN,NO,ENAN,"Andøya Airport, Andenes",Andenes,69.295193,16.139379,matched,NO07,contains,0.0
+NO_ENAT,NO,ENAT,Alta Airport,Alta,69.976097,23.3717,matched,NO07,contains,0.0
+NO_ENBN,NO,ENBN,"Brønnøysund Airport, Brønnøy",Brønnøy,65.461098,12.2175,matched,NO07,contains,0.0
+NO_ENBO,NO,ENBO,Bodø Airport,Bodø,67.269203,14.3653,matched,NO07,contains,0.0
+NO_ENBR,NO,ENBR,"Bergen Airport, Flesland",Bergen,60.2934,5.21814,matched,NO0A,contains,0.0
+NO_ENCN,NO,ENCN,Kristiansand Airport,Kristiansand(Kjevik),58.204201,8.08537,matched,NO09,contains,0.0
+NO_ENDU,NO,ENDU,Bardufoss Airport,Målselv,69.055801,18.5404,matched,NO07,contains,0.0
+NO_ENEV,NO,ENEV,Harstad/Narvik Airport,Evenes,68.491302,16.678101,matched,NO07,contains,0.0
+NO_ENFG,NO,ENFG,"Fagernes Airport, Leirin",Fagernes,61.015598,9.28806,matched,NO02,contains,0.0
+NO_ENFL,NO,ENFL,Florø Airport,Florø,61.583599090576,5.0247201919556,matched,NO0A,contains,0.0
+NO_ENGM,NO,ENGM,Oslo-Gardermoen International Airport,Oslo (Gardermoen),60.193901,11.1004,matched,NO08,contains,0.0
+NO_ENHD,NO,ENHD,"Haugesund Airport, Karmøy",Karmøy,59.345299,5.20836,matched,NO0A,contains,0.0
+NO_ENHF,NO,ENHF,Hammerfest Airport,Hammerfest,70.679703,23.6686,matched,NO07,contains,0.0
+NO_ENKB,NO,ENKB,"Kristiansund Airport, Kvernberget",Kvernberget,63.111801,7.82452,matched,NO0A,contains,0.0
+NO_ENKR,NO,ENKR,"Kirkenes Airport, Høybuktmoen",Kirkenes,69.7258,29.8913,matched,NO07,contains,0.0
+NO_ENLK,NO,ENLK,Leknes Airport,Leknes,68.152496337891,13.609399795532,matched,NO07,contains,0.0
+NO_ENML,NO,ENML,"Molde Airport, Årø",Årø,62.744701,7.2625,matched,NO0A,contains,0.0
+NO_ENMS,NO,ENMS,"Mosjøen Airport, Kjærstad",Mosjøen,65.783997,13.2149,matched,NO07,contains,0.0
+NO_ENNA,NO,ENNA,"Lakselv Airport, Banak",Lakselv,70.068802,24.973499,matched,NO07,contains,0.0
+NO_ENOL,NO,ENOL,Ørland Airport,Ørland,63.69889831542969,9.604000091552734,matched,NO06,contains,0.0
+NO_ENRA,NO,ENRA,"Mo i Rana Airport, Røssvoll",Mo i Rana,66.363899230957,14.301400184631,matched,NO07,contains,0.0
+NO_ENRO,NO,ENRO,Røros Airport,Røros,62.578399658203,11.342300415039,matched,NO06,contains,0.0
+NO_ENRY,NO,ENRY,"Moss Airport, Rygge",Oslo,59.378817,10.785439,matched,NO08,contains,0.0
+NO_ENSB,NO,ENSB,"Svalbard Airport, Longyear",Longyearbyen,78.246101,15.4656,matched,NO0B,contains,0.0
+NO_ENSG,NO,ENSG,"Sogndal Airport, Haukåsen",Sogndal,61.156101,7.13778,matched,NO0A,contains,0.0
+NO_ENSO,NO,ENSO,"Stord Airport, Sørstokken",Leirvik,59.791901,5.34085,matched,NO0A,contains,0.0
+NO_ENST,NO,ENST,"Sandnessjøen Airport, Stokka",Alstahaug,65.956802,12.4689,matched,NO07,contains,0.0
+NO_ENTC,NO,ENTC,Tromsø Airport,Tromsø,69.683296,18.9189,matched,NO07,contains,0.0
+NO_ENTO,NO,ENTO,"Sandefjord Airport, Torp",Sandefjord(Torp),59.186699,10.2586,matched,NO09,contains,0.0
+NO_ENVA,NO,ENVA,"Trondheim Airport, Værnes",Trondheim,63.457802,10.924,matched,NO06,contains,0.0
+NO_ENZV,NO,ENZV,"Stavanger Airport, Sola",Stavanger,58.876701,5.63778,matched,NO0A,contains,0.0
+PL_EPBY,PL,EPBY,Ignacy Jan Paderewski Bydgoszcz Airport,Bydgoszcz,53.096802,17.977699,matched,PL61,contains,0.0
+PL_EPGD,PL,EPGD,Gdańsk Lech Wałęsa Airport,Gdańsk,54.377602,18.4662,matched,PL63,contains,0.0
+PL_EPKK,PL,EPKK,Kraków John Paul II International Airport,Balice,50.077702,19.7848,matched,PL21,contains,0.0
+PL_EPKT,PL,EPKT,Katowice Wojciech Korfanty International Airport,Katowice,50.476015,19.080705,matched,PL22,contains,0.0
+PL_EPLB,PL,EPLB,Lublin Airport,Lublin,51.240157,22.713461,matched,PL81,contains,0.0
+PL_EPLL,PL,EPLL,Łódź Władysław Reymont Airport,Łódź,51.721901,19.3981,matched,PL71,contains,0.0
+PL_EPMO,PL,EPMO,Warsaw Modlin Airport,Nowy Dwór Mazowiecki,52.451099,20.6518,matched,PL91,contains,0.0
+PL_EPPO,PL,EPPO,Poznań-Ławica Airport,Poznań,52.421598,16.823359,matched,PL41,contains,0.0
+PL_EPRZ,PL,EPRZ,Rzeszów-Jasionka Airport,Jasionka,50.109791,22.024155,matched,PL82,contains,0.0
+PL_EPSC,PL,EPSC,Solidarity Szczecin–Goleniów Airport,Szczecin(Glewice),53.584702,14.9022,matched,PL42,contains,0.0
+PL_EPSY,PL,EPSY,Olsztyn-Mazury Airport,Szymany,53.481899,20.9377,matched,PL62,contains,0.0
+PL_EPWA,PL,EPWA,Warsaw Chopin Airport,Warsaw,52.165699,20.9671,matched,PL91,contains,0.0
+PL_EPWR,PL,EPWR,Copernicus Wrocław Airport,Wrocław,51.103719,16.882096,matched,PL51,contains,0.0
+PT_LPAZ,PT,LPAZ,Santa Maria Airport,Vila do Porto,36.97140121459961,-25.17060089111328,matched,PT20,contains,0.0
+PT_LPBG,PT,LPBG,Bragança Airport,Bragança,41.8578,-6.70713,matched,PT11,contains,0.0
+PT_LPBJ,PT,LPBJ,Beja Airport / Airbase,Beja,38.078899,-7.9324,matched,PT18,contains,0.0
+PT_LPCR,PT,LPCR,Corvo Airport,Corvo,39.671501,-31.1136,matched,PT20,contains,0.0
+PT_LPCS,PT,LPCS,Cascais Airport,Cascais,38.724998,-9.35523,matched,PT17,contains,0.0
+PT_LPFL,PT,LPFL,Flores Airport,Santa Cruz das Flores,39.455299377441406,-31.13139915466309,matched,PT20,contains,0.0
+PT_LPFR,PT,LPFR,Faro - Gago Coutinho International Airport,Faro,37.015909,-7.970939,matched,PT15,contains,0.0
+PT_LPFU,PT,LPFU,,,,,unmatched,,,
+PT_LPGR,PT,LPGR,Graciosa Airport,Santa Cruz da Graciosa,39.09220123291016,-28.029800415039062,matched,PT20,contains,0.0
+PT_LPHR,PT,LPHR,Horta Airport,Horta,38.519901275634766,-28.715900421142575,matched,PT20,contains,0.0
+PT_LPLA,PT,LPLA,Lajes Airport,Praia da Vitória,38.761799,-27.090799,matched,PT20,contains,0.0
+PT_LPMA,PT,LPMA,Cristiano Ronaldo International Airport,Funchal,32.697812,-16.774613,matched,PT30,contains,0.0
+PT_LPPD,PT,LPPD,João Paulo II Airport,Ponta Delgada,37.7411994934,-25.6979007721,matched,PT20,contains,0.0
+PT_LPPI,PT,LPPI,Pico Airport,Pico Island,38.554298,-28.441299,matched,PT20,contains,0.0
+PT_LPPM,PT,LPPM,Portimão Airport,Portimão,37.1493,-8.58396,matched,PT15,contains,0.0
+PT_LPPO,PT,LPPO,,,,,unmatched,,,
+PT_LPPR,PT,LPPR,Francisco de Sá Carneiro Airport,Porto,41.2481002808,-8.68138980865,matched,PT11,contains,0.0
+PT_LPPS,PT,LPPS,Porto Santo Airport,Vila Baleira,33.0733985901,-16.3500003815,matched,PT30,contains,0.0
+PT_LPPT,PT,LPPT,Lisbon Humberto Delgado Airport,Lisbon,38.7813,-9.13592,matched,PT17,contains,0.0
+PT_LPSJ,PT,LPSJ,São Jorge Airport,Velas,38.665501,-28.1758,matched,PT20,contains,0.0
+PT_LPVR,PT,LPVR,Vila Real Airport,Vila Real,41.2743,-7.72047,matched,PT11,contains,0.0
+RO_LRAR,RO,LRAR,Arad International Airport,Arad,46.176136,21.264322,matched,RO42,contains,0.0
+RO_LRBC,RO,LRBC,Bacău George Enescu International  Airport,Bacău,46.5219,26.910299,matched,RO21,contains,0.0
+RO_LRBM,RO,LRBM,Maramureș International Airport,Tăuții-Măgherăuș,47.658444,23.464445,matched,RO11,contains,0.0
+RO_LRBS,RO,LRBS,Bucharest Băneasa Aurel Vlaicu International Airport,Bucharest,44.503133,26.102944,matched,RO32,contains,0.0
+RO_LRCK,RO,LRCK,Mihail Kogălniceanu International Airport,Constanța,44.362202,28.4883,matched,RO22,contains,0.0
+RO_LRCL,RO,LRCL,Avram Iancu Cluj International Airport,Cluj-Napoca,46.786042,23.685733,matched,RO11,contains,0.0
+RO_LRCV,RO,LRCV,Craiova International Airport,Craiova,44.3181,23.888599,matched,RO41,contains,0.0
+RO_LRIA,RO,LRIA,Iaşi International Airport,Iaşi,47.179633,27.621431,matched,RO21,contains,0.0
+RO_LROD,RO,LROD,Oradea International Airport,Oradea,47.025299,21.9025,matched,RO11,contains,0.0
+RO_LROP,RO,LROP,Bucharest Henri Coandă International Airport,Otopeni,44.571792,26.103285,matched,RO32,contains,0.0
+RO_LRSB,RO,LRSB,Sibiu International Airport,Sibiu,45.785841,24.086666,matched,RO12,contains,0.0
+RO_LRSV,RO,LRSV,Suceava Ștefan cel Mare International Airport,Suceava,47.6875,26.354099,matched,RO21,contains,0.0
+RO_LRTC,RO,LRTC,Tulcea Danube Delta Airport,Mihail Kogălniceanu,45.0625,28.7143,matched,RO22,contains,0.0
+RO_LRTM,RO,LRTM,Târgu Mureş Transilvania International Airport,Recea,46.467701,24.4125,matched,RO12,contains,0.0
+RO_LRTR,RO,LRTR,Timișoara Traian Vuia International Airport,Timişoara,45.809898,21.3379,matched,RO42,contains,0.0
+SE_ESDF,SE,ESDF,Ronneby Airport,Ronneby,56.266701,15.265,matched,SE22,contains,0.0
+SE_ESGG,SE,ESGG,Göteborg Landvetter Airport,Göteborg,57.6628,12.2798,matched,SE23,contains,0.0
+SE_ESGJ,SE,ESGJ,Jönköping Airport,Jönköping,57.757598876953125,14.068699836730955,matched,SE21,contains,0.0
+SE_ESGP,SE,ESGP,Säve Airport,Göteborg,57.7747,11.8704,matched,SE23,contains,0.0
+SE_ESKN,SE,ESKN,Stockholm Skavsta Airport,Nyköping,58.789656,16.911479,matched,SE12,contains,0.0
+SE_ESMQ,SE,ESMQ,Kalmar Airport,Kalmar,56.685501,16.2876,matched,SE21,contains,0.0
+SE_ESMS,SE,ESMS,Malmö Sturup Airport,Malmö,55.535564,13.376327,matched,SE22,contains,0.0
+SE_ESMX,SE,ESMX,Växjö Kronoberg Airport,Växjö,56.929100036621094,14.727999687194824,matched,SE21,contains,0.0
+SE_ESNN,SE,ESNN,Sundsvall-Härnösand Airport,Sundsvall/ Härnösand,62.528099060058594,17.443899154663086,matched,SE32,contains,0.0
+SE_ESNO,SE,ESNO,Örnsköldsvik Airport,Örnsköldsvik,63.40829849243164,18.989999771118164,matched,SE32,contains,0.0
+SE_ESNQ,SE,ESNQ,Kiruna Airport,Kiruna,67.821999,20.3368,matched,SE33,contains,0.0
+SE_ESNS,SE,ESNS,Skellefteå Airport,Skellefteå,64.62480163574219,21.076900482177734,matched,SE33,contains,0.0
+SE_ESNU,SE,ESNU,Umeå Airport,Umeå,63.791801,20.282801,matched,SE33,contains,0.0
+SE_ESNZ,SE,ESNZ,Åre Östersund Airport,Östersund,63.193546,14.504168,matched,SE32,contains,0.0
+SE_ESOE,SE,ESOE,Örebro Airport,Örebro,59.22370147705078,15.038000106811523,matched,SE12,contains,0.0
+SE_ESOK,SE,ESOK,Karlstad Airport,Karlstad,59.444698,13.3374,matched,SE31,contains,0.0
+SE_ESOW,SE,ESOW,Stockholm Västerås Airport,Stockholm / Västerås,59.589401,16.6336,matched,SE12,contains,0.0
+SE_ESPA,SE,ESPA,Luleå Airport,Luleå,65.5438,22.122,matched,SE33,contains,0.0
+SE_ESPC,SE,ESPC,,,,,unmatched,,,
+SE_ESSA,SE,ESSA,Stockholm-Arlanda Airport,Stockholm,59.64849,17.928829,matched,SE11,contains,0.0
+SE_ESSB,SE,ESSB,Stockholm-Bromma Airport,Stockholm,59.354401,17.9417,matched,SE11,contains,0.0
+SE_ESSL,SE,ESSL,Linköping City Airport,Linköping,58.404909,15.684499,matched,SE12,contains,0.0
+SE_ESSV,SE,ESSV,Visby Airport,Visby,57.6628,18.346201,matched,SE21,contains,0.0
+SE_ESTA,SE,ESTA,Ängelholm-Helsingborg Airport,Ängelholm,56.29610061645508,12.847100257873535,matched,SE22,contains,0.0
+SI_LJLJ,SI,LJLJ,Ljubljana Jože Pučnik Airport,Zgornji Brnik,46.223701,14.4576,matched,SI04,contains,0.0
+SK_LZ99,SK,LZ99,,,,,unmatched,,,
+SK_LZIB,SK,LZIB,M. R. Štefánik Airport,Bratislava,48.1702,17.2127,matched,SK01,contains,0.0
+SK_LZKZ,SK,LZKZ,Košice International Airport,Košice,48.663101,21.2411,matched,SK04,contains,0.0
+UK_EGAA,UK,EGAA,Belfast International Airport,Belfast,54.6575012207,-6.2158298492399995,matched,UKN0,contains,0.0
+UK_EGAC,UK,EGAC,George Best Belfast City Airport,Belfast,54.618099,-5.8725,matched,UKN0,contains,0.0
+UK_EGAE,UK,EGAE,City of Derry Airport,"Derry, Derry and Strabane",55.042801,-7.16111,matched,UKN0,contains,0.0
+UK_EGBB,UK,EGBB,Birmingham Airport,"Birmingham, West Midlands",52.453899,-1.74803,matched,UKG3,contains,0.0
+UK_EGBE,UK,EGBE,Coventry Airport,"Coventry, West Midlands",52.369701,-1.47972,matched,UKG1,contains,0.0
+UK_EGBJ,UK,EGBJ,Gloucestershire Airport,"Staverton, Gloucestershire",51.894199,-2.16722,matched,UKK1,contains,0.0
+UK_EGCC,UK,EGCC,Manchester Airport,"Manchester, Greater Manchester",53.349375,-2.279521,matched,UKD3,contains,0.0
+UK_EGCN,UK,EGCN,,,,,unmatched,,,
+UK_EGDG,UK,EGDG,,,,,unmatched,,,
+UK_EGEC,UK,EGEC,Campbeltown Airport,Campbeltown,55.437199,-5.68639,matched,UKM6,contains,0.0
+UK_EGFF,UK,EGFF,Cardiff International Airport,Cardiff,51.396702,-3.34333,matched,UKL2,contains,0.0
+UK_EGGD,UK,EGGD,Bristol Airport,Bristol,51.382326,-2.716453,matched,UKK1,contains,0.0
+UK_EGGP,UK,EGGP,Liverpool John Lennon Airport,Liverpool,53.334863,-2.849637,matched,UKD7,contains,0.0
+UK_EGGW,UK,EGGW,London Luton Airport,"Luton, Luton",51.874699,-0.368333,matched,UKH2,contains,0.0
+UK_EGHH,UK,EGHH,Bournemouth Airport,Bournemouth,50.780483,-1.839576,matched,UKK2,contains,0.0
+UK_EGHI,UK,EGHI,Southampton Airport,Southampton,50.950298,-1.3568,matched,UKJ3,contains,0.0
+UK_EGHQ,UK,EGHQ,Cornwall Airport Newquay,Newquay,50.440601,-4.99541,matched,UKK3,contains,0.0
+UK_EGKB,UK,EGKB,London Biggin Hill Airport,London,51.33079910279999,0.0324999988079,matched,UKI6,contains,0.0
+UK_EGKK,UK,EGKK,London Gatwick Airport,London,51.148744,-0.185739,matched,UKJ2,contains,0.0
+UK_EGLC,UK,EGLC,London City Airport,London,51.505299,0.055278,matched,UKI4,contains,0.0
+UK_EGLL,UK,EGLL,London Heathrow Airport,London,51.470748,-0.459909,matched,UKI7,contains,0.0
+UK_EGMC,UK,EGMC,London Southend Airport,"Southend-on-Sea, Essex",51.570562,0.693627,matched,UKH3,contains,0.0
+UK_EGMD,UK,EGMD,Lydd London Ashford Airport,"Romney Marsh, Kent",50.956246,0.939074,matched,UKJ4,contains,0.0
+UK_EGMH,UK,EGMH,,,,,unmatched,,,
+UK_EGNH,UK,EGNH,Blackpool Airport,Blackpool,53.771702,-3.02861,matched,UKD4,contains,0.0
+UK_EGNJ,UK,EGNJ,Humberside Airport,"Grimsby, Lincolnshire",53.576152,-0.34954,matched,UKE1,contains,0.0
+UK_EGNM,UK,EGNM,Leeds Bradford Airport,"Leeds, West Yorkshire",53.865898,-1.66057,matched,UKE4,contains,0.0
+UK_EGNT,UK,EGNT,Newcastle International Airport,"Newcastle upon Tyne, Tyne and Wear",55.037958,-1.689577,matched,UKC2,contains,0.0
+UK_EGNV,UK,EGNV,Teesside International Airport,"Darlington, Durham",54.509201,-1.42941,matched,UKC1,contains,0.0
+UK_EGNX,UK,EGNX,East Midlands Airport,"Nottingham, Leicestershire",52.8311,-1.32806,matched,UKF2,contains,0.0
+UK_EGPA,UK,EGPA,Kirkwall Airport,"Kirkwall, Orkney Islands",58.957903,-2.905077,matched,UKM6,contains,0.0
+UK_EGPB,UK,EGPB,Sumburgh Airport,"Lerwick, Shetland",59.878899,-1.29556,matched,UKM6,contains,0.0
+UK_EGPC,UK,EGPC,Wick John O'Groats Airport,Wick,58.4589,-3.09306,matched,UKM6,contains,0.0
+UK_EGPD,UK,EGPD,Aberdeen International Airport,Aberdeen,57.2019,-2.19778,matched,UKM5,contains,0.0
+UK_EGPE,UK,EGPE,Inverness Airport,Inverness,57.5425,-4.0475,matched,UKM6,contains,0.0
+UK_EGPF,UK,EGPF,Glasgow Airport,Glasgow,55.871899,-4.43306,matched,UKM8,contains,0.0
+UK_EGPH,UK,EGPH,Edinburgh Airport,Edinburgh,55.950145,-3.372288,matched,UKM7,contains,0.0
+UK_EGPK,UK,EGPK,Glasgow Prestwick Airport,"Prestwick, South Ayrshire",55.501499,-4.577182,matched,UKM9,contains,0.0
+UK_EGPN,UK,EGPN,Dundee Airport,Dundee,56.452499,-3.02583,matched,UKM7,contains,0.0
+UK_EGPO,UK,EGPO,Stornoway Airport,"Stornoway, Western Isles",58.215599,-6.33111,matched,UKM6,contains,0.0
+UK_EGPU,UK,EGPU,Tiree Airport,"Balemartine, Argyll and Bute",56.499199,-6.86917,matched,UKM6,contains,0.0
+UK_EGSC,UK,EGSC,Cambridge City Airport,"Cambridge, Cambridgeshire",52.205002,0.175,matched,UKH1,contains,0.0
+UK_EGSH,UK,EGSH,Norwich Airport,"Norwich, Norfolk",52.6758,1.28278,matched,UKH1,contains,0.0
+UK_EGSS,UK,EGSS,London Stansted Airport,"London, Essex",51.884998,0.235,matched,UKH3,contains,0.0
+UK_EGTE,UK,EGTE,Exeter International Airport,"Exeter, Devon",50.734261,-3.413984,matched,UKK4,contains,0.0
+UK_EGTK,UK,EGTK,London Oxford Airport,"Kidlington, Oxfordshire",51.836899,-1.32,matched,UKJ1,contains,0.0

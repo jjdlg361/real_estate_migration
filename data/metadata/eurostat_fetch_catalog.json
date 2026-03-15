@@ -1,0 +1,198 @@
+{
+  "generated_at_utc": "2026-03-06T09:15:26.534623+00:00",
+  "source": "Eurostat via eurostat Python package",
+  "tables": [
+    {
+      "name": "prc_hpi_a_idx",
+      "code": "PRC_HPI_A",
+      "filter_pars": {
+        "purchase": "TOTAL",
+        "unit": "I15_A_AVG"
+      },
+      "notes": "Annual house price index (2015=100), all dwellings.",
+      "rows": 37,
+      "cols": 24,
+      "fetched_at_utc": "2026-03-06T09:15:26.534623+00:00",
+      "raw_csv": "data/raw/prc_hpi_a_idx.csv"
+    },
+    {
+      "name": "prc_hpi_a_growth",
+      "code": "PRC_HPI_A",
+      "filter_pars": {
+        "purchase": "TOTAL",
+        "unit": "RCH_A_AVG"
+      },
+      "notes": "Annual house price growth rate (%), all dwellings.",
+      "rows": 38,
+      "cols": 24,
+      "fetched_at_utc": "2026-03-06T09:15:26.534623+00:00",
+      "raw_csv": "data/raw/prc_hpi_a_growth.csv"
+    },
+    {
+      "name": "prc_hpi_q_idx",
+      "code": "PRC_HPI_Q",
+      "filter_pars": {
+        "purchase": "TOTAL",
+        "unit": "I15_Q"
+      },
+      "notes": "Quarterly house price index (2015=100), all dwellings.",
+      "rows": 37,
+      "cols": 87,
+      "fetched_at_utc": "2026-03-06T09:15:26.534623+00:00",
+      "raw_csv": "data/raw/prc_hpi_q_idx.csv"
+    },
+    {
+      "name": "prc_hpi_q_growth",
+      "code": "PRC_HPI_Q",
+      "filter_pars": {
+        "purchase": "TOTAL",
+        "unit": "RCH_Q"
+      },
+      "notes": "Quarterly house price growth rate (% q/q), all dwellings.",
+      "rows": 38,
+      "cols": 87,
+      "fetched_at_utc": "2026-03-06T09:15:26.534623+00:00",
+      "raw_csv": "data/raw/prc_hpi_q_growth.csv"
+    },
+    {
+      "name": "avia_paoc_a_passengers",
+      "code": "AVIA_PAOC",
+      "filter_pars": {
+        "freq": "A",
+        "unit": "PAS",
+        "tra_meas": "PAS_CRD",
+        "tra_cov": "TOTAL",
+        "schedule": "TOT"
+      },
+      "notes": "Annual air passengers carried (country-level).",
+      "rows": 39,
+      "cols": 39,
+      "fetched_at_utc": "2026-03-06T09:15:26.534623+00:00",
+      "raw_csv": "data/raw/avia_paoc_a_passengers.csv"
+    },
+    {
+      "name": "avia_paoc_q_passengers",
+      "code": "AVIA_PAOC",
+      "filter_pars": {
+        "freq": "Q",
+        "unit": "PAS",
+        "tra_meas": "PAS_CRD",
+        "tra_cov": "TOTAL",
+        "schedule": "TOT"
+      },
+      "notes": "Quarterly air passengers carried (country-level).",
+      "rows": 39,
+      "cols": 138,
+      "fetched_at_utc": "2026-03-06T09:15:26.534623+00:00",
+      "raw_csv": "data/raw/avia_paoc_q_passengers.csv"
+    },
+    {
+      "name": "tps00019_net_migration_rate",
+      "code": "TPS00019",
+      "filter_pars": {
+        "indic_de": "CNMIGRATRT"
+      },
+      "notes": "Crude rate of net migration plus adjustment (per 1,000 persons).",
+      "rows": 51,
+      "cols": 15,
+      "fetched_at_utc": "2026-03-06T09:15:26.534623+00:00",
+      "raw_csv": "data/raw/tps00019_net_migration_rate.csv"
+    },
+    {
+      "name": "tps00176_immigration",
+      "code": "TPS00176",
+      "filter_pars": {
+        "citizen": "TOTAL",
+        "agedef": "REACH",
+        "age": "TOTAL",
+        "unit": "NR",
+        "sex": "T"
+      },
+      "notes": "Immigration (number of persons).",
+      "rows": 36,
+      "cols": 19,
+      "fetched_at_utc": "2026-03-06T09:15:26.534623+00:00",
+      "raw_csv": "data/raw/tps00176_immigration.csv"
+    },
+    {
+      "name": "tps00177_emigration",
+      "code": "TPS00177",
+      "filter_pars": {
+        "citizen": "TOTAL",
+        "agedef": "REACH",
+        "age": "TOTAL",
+        "unit": "NR",
+        "sex": "T"
+      },
+      "notes": "Emigration (number of persons).",
+      "rows": 36,
+      "cols": 19,
+      "fetched_at_utc": "2026-03-06T09:15:26.534623+00:00",
+      "raw_csv": "data/raw/tps00177_emigration.csv"
+    },
+    {
+      "name": "tec00115_gdp_pc_growth",
+      "code": "TEC00115",
+      "filter_pars": {
+        "unit": "CLV_PCH_PRE_HAB",
+        "na_item": "B1GQ"
+      },
+      "notes": "Real GDP per capita growth rate (%).",
+      "rows": 41,
+      "cols": 16,
+      "fetched_at_utc": "2026-03-06T09:15:26.534623+00:00",
+      "raw_csv": "data/raw/tec00115_gdp_pc_growth.csv"
+    },
+    {
+      "name": "une_rt_a_unemployment",
+      "code": "UNE_RT_A",
+      "filter_pars": {
+        "age": "Y15-74",
+        "unit": "PC_ACT",
+        "sex": "T"
+      },
+      "notes": "Unemployment rate (% active population), age 15-74, total.",
+      "rows": 38,
+      "cols": 27,
+      "fetched_at_utc": "2026-03-06T09:15:26.534623+00:00",
+      "raw_csv": "data/raw/une_rt_a_unemployment.csv"
+    },
+    {
+      "name": "prc_hicp_aind_inflation",
+      "code": "PRC_HICP_AIND",
+      "filter_pars": {
+        "unit": "RCH_A_AVG",
+        "coicop": "CP00"
+      },
+      "notes": "HICP annual inflation rate (%), all-items.",
+      "rows": 45,
+      "cols": 34,
+      "fetched_at_utc": "2026-03-06T09:15:26.534623+00:00",
+      "raw_csv": "data/raw/prc_hicp_aind_inflation.csv"
+    },
+    {
+      "name": "tps00001_population",
+      "code": "TPS00001",
+      "filter_pars": {
+        "indic_de": "JAN"
+      },
+      "notes": "Population on 1 January (persons).",
+      "rows": 52,
+      "cols": 15,
+      "fetched_at_utc": "2026-03-06T09:15:26.534623+00:00",
+      "raw_csv": "data/raw/tps00001_population.csv"
+    },
+    {
+      "name": "irt_lt_mcby_a_long_rate",
+      "code": "IRT_LT_MCBY_A",
+      "filter_pars": {
+        "int_rt": "MCBY"
+      },
+      "notes": "Long-term interest rates (% p.a., Maastricht criterion bond yields).",
+      "rows": 30,
+      "cols": 80,
+      "fetched_at_utc": "2026-03-06T09:15:26.534623+00:00",
+      "raw_csv": "data/raw/irt_lt_mcby_a_long_rate.csv"
+    }
+  ]
+}

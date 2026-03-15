@@ -1,0 +1,13 @@
+{
+  "od_rows": 151173,
+  "od_destinations": 26,
+  "od_origins": 242,
+  "od_year_min": 1998,
+  "od_year_max": 2024,
+  "iv_rows": 567,
+  "iv_nonmissing_ss_loo": 567,
+  "iv_nonmissing_ss_push_index": 567,
+  "iv_nonmissing_ss_asylum_loo": 357,
+  "annual_iv_rows": 3333,
+  "annual_iv_baseline_complete": 260
+}

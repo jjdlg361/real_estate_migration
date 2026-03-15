@@ -1,0 +1,13 @@
+{
+  "raw_rows_filtered_wide": 10070,
+  "route_month_rows": 848376,
+  "airport_month_rows": 74225,
+  "country_quarter_rows": 2469,
+  "country_quarter_min": "2004Q1",
+  "country_quarter_max": "2025Q4",
+  "countries": 29,
+  "total_route_open_events": 19478,
+  "total_route_close_candidates": 29336,
+  "total_route_open_persistent": 10283,
+  "total_route_close_persistent": 12672
+}

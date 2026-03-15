@@ -1,0 +1,12 @@
+{
+  "annual_rows": 2145,
+  "annual_countries": 29,
+  "annual_year_min": 1949,
+  "annual_year_max": 2025,
+  "quarterly_rows": 3828,
+  "quarterly_countries": 29,
+  "quarterly_period_min": "1993Q1",
+  "quarterly_period_max": "2025Q4",
+  "annual_full_sample_rows_for_baseline": 314,
+  "quarterly_full_sample_rows_for_baseline": 2108
+}

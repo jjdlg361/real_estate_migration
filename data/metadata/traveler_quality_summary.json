@@ -1,0 +1,32 @@
+{
+  "rows": 5567,
+  "countries": 47,
+  "period_min": "1990Q1",
+  "period_max": "2025Q4",
+  "nonmissing_hpi_yoy": 4139,
+  "nonmissing_airfare_yoy_q": 3315,
+  "nonmissing_lic_neu_share_pas": 2562,
+  "nonmissing_pax_per_move_total": 2535,
+  "models": [
+    {
+      "model": "quarterly_tq_baseline_matched",
+      "nobs_model": 2007.0
+    },
+    {
+      "model": "quarterly_tq_full",
+      "nobs_model": 1993.0
+    },
+    {
+      "model": "quarterly_tq_full_interact",
+      "nobs_model": 1993.0
+    },
+    {
+      "model": "quarterly_tq_plus_airfare",
+      "nobs_model": 2169.0
+    },
+    {
+      "model": "quarterly_tq_plus_airline_mix",
+      "nobs_model": 1993.0
+    }
+  ]
+}

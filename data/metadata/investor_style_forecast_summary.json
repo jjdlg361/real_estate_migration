@@ -1,0 +1,32 @@
+{
+  "annual_investor_headline": {
+    "sample": "annual_investor_headline",
+    "nobs_test": 208,
+    "rmse": 7.836134320899726,
+    "mae": 6.140173692080742,
+    "corr_actual_pred": 0.46278494628832273,
+    "rmse_fe_only": 5.967767457699416,
+    "mae_fe_only": 4.283197882967768,
+    "oos_r2_vs_fe_only": -0.7241695052836763,
+    "periods_eval": 11,
+    "mean_rank_ic": 0.3400846221358933,
+    "median_rank_ic": 0.35364946053497526,
+    "mean_top_minus_bottom": 3.6084458265431407,
+    "median_top_minus_bottom": 3.0666666666666673
+  },
+  "quarterly_investor_tq_full": {
+    "sample": "quarterly_investor_tq_full",
+    "nobs_test": 1965,
+    "rmse": 8.779031513349869,
+    "mae": 6.033760710904502,
+    "corr_actual_pred": 0.47721854827158877,
+    "rmse_fe_only": 8.917107562834852,
+    "mae_fe_only": 5.8666805228687675,
+    "oos_r2_vs_fe_only": 0.030729030958373316,
+    "periods_eval": 85,
+    "mean_rank_ic": 0.2978416294224613,
+    "median_rank_ic": 0.2539130434782608,
+    "mean_top_minus_bottom": 5.317583813890583,
+    "median_top_minus_bottom": 3.5171680788866135
+  }
+}

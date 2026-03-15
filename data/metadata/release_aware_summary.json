@@ -1,0 +1,50 @@
+{
+  "annual_naive": {
+    "sample": "annual_naive",
+    "nobs_test": 246,
+    "rmse": 6.1198019214780075,
+    "mae": 4.576579844986883,
+    "corr_actual_pred": 0.2136916280864211,
+    "oos_r2_vs_fe_only": -0.06291812864874524,
+    "periods_eval": 9,
+    "mean_rank_ic": 0.46717647580510785,
+    "mean_top25_minus_bottom25": 4.87063492063492,
+    "median_top25_minus_bottom25": 5.05
+  },
+  "annual_release_aware": {
+    "sample": "annual_release_aware",
+    "nobs_test": 247,
+    "rmse": 5.975976107629724,
+    "mae": 4.385637006845742,
+    "corr_actual_pred": 0.22672622938849613,
+    "oos_r2_vs_fe_only": -0.027846503906932885,
+    "periods_eval": 9,
+    "mean_rank_ic": 0.4726636687887049,
+    "mean_top25_minus_bottom25": 5.271214684280841,
+    "median_top25_minus_bottom25": 5.35
+  },
+  "quarterly_naive": {
+    "sample": "quarterly_naive",
+    "nobs_test": 325,
+    "rmse": 5.148829459582243,
+    "mae": 4.192794946818709,
+    "corr_actual_pred": 0.6740821458243411,
+    "oos_r2_vs_fe_only": 0.2555982991418173,
+    "periods_eval": 13,
+    "mean_rank_ic": 0.7072669062635619,
+    "mean_top25_minus_bottom25": 10.507298736797235,
+    "median_top25_minus_bottom25": 10.649365704381546
+  },
+  "quarterly_release_aware": {
+    "sample": "quarterly_release_aware",
+    "nobs_test": 329,
+    "rmse": 4.819501362933938,
+    "mae": 3.8518186629014597,
+    "corr_actual_pred": 0.6890169439566107,
+    "oos_r2_vs_fe_only": 0.35320726750499165,
+    "periods_eval": 13,
+    "mean_rank_ic": 0.7497679837813618,
+    "mean_top25_minus_bottom25": 10.591987550783882,
+    "median_top25_minus_bottom25": 10.578167628897866
+  }
+}

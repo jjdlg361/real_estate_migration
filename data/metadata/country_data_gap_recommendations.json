@@ -1,0 +1,73 @@
+{
+  "current_targets_n": 47,
+  "current_targets": [
+    "AT",
+    "AU",
+    "BE",
+    "BG",
+    "BR",
+    "CA",
+    "CH",
+    "CL",
+    "CN",
+    "CO",
+    "CY",
+    "CZ",
+    "DE",
+    "DK",
+    "EE",
+    "EL",
+    "ES",
+    "FI",
+    "FR",
+    "HR",
+    "HU",
+    "IE",
+    "IL",
+    "IN",
+    "IS",
+    "IT",
+    "JP",
+    "KR",
+    "LT",
+    "LU",
+    "LV",
+    "MT",
+    "MX",
+    "NL",
+    "NO",
+    "NZ",
+    "PL",
+    "PT",
+    "RO",
+    "SA",
+    "SE",
+    "SI",
+    "SK",
+    "TR",
+    "UK",
+    "US",
+    "ZA"
+  ],
+  "candidate_missing_geos": [],
+  "candidate_missing_summary": [],
+  "near_candidate_missing_geos": [],
+  "near_candidate_missing_summary": [],
+  "priority_data_fixes": [
+    {
+      "geo": "UK",
+      "issue": "Weak annual Eurostat unemployment and migration depth in this sample.",
+      "recommended_official_source": "ONS API time series (labor + migration releases) with transparent concept mapping."
+    },
+    {
+      "geo": "PL",
+      "issue": "Eurostat and official BDL migration series diverge in overlap window.",
+      "recommended_official_source": "Keep BDL patch with documented definition bridge; avoid naive one-to-one replacement beyond overlap checks."
+    },
+    {
+      "geo": "IS/NO/CH",
+      "issue": "Long-rate control missing/short in Eurostat stream.",
+      "recommended_official_source": "OECD/central-bank long-term rates as explicit control fallback."
+    }
+  ]
+}
